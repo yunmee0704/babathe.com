@@ -46,14 +46,15 @@
 
 /* lounge wear */
 
-.lounge_wear h2{
+.lounge_wear h2 {
     text-align: center;
- font-size: 20vh;
- color: rgba(13,51,22,1);
+    font-size: 20vh;
+    color: rgba(13, 51, 22, 1);
 }
-.lounge_wear span{
+
+.lounge_wear span {
     display: block;
-    color: rgba(13,51,22,1);
+    color: rgba(13, 51, 22, 1);
     width: 90vw;
     font-size: 2.5vh;
     text-align: center;
@@ -62,12 +63,14 @@
     margin-right: auto;
 
 }
-.lounge_wear .img_wrap{
+
+.lounge_wear .img_wrap {
     width: 100vw;
     height: 95vh;
     margin-top: 5vh;
 }
-.lounge_wear .img_wrap .bg{
+
+.lounge_wear .img_wrap .bg {
     display: block;
     background-image: url(../img/ltopphoto.jpg);
     background-repeat: no-repeat;
@@ -75,4 +78,387 @@
     background-position: center;
     width: 100vw;
     height: 95vh;
+}
+
+.white.w_lounge h2,
+.white.m_lounge h2 {
+    color: rgba(13, 51, 22, 1);
+    width: 90%;
+    margin: 7vh auto;
+    font-size: 8vh;
+    text-align: center;
+    line-height: 8vh;
+    font-weight: normal;
+
+
+}
+
+
+.white.w_lounge .swiper-container .swiper-wrapper .swiper-slide:first-child {
+    background-image: url('../img/WOMEN_LOUNGEWEAR_PAJAMA_BOTTOM.webp');
+}
+
+.white.w_lounge .swiper-container .swiper-wrapper .swiper-slide:nth-child(2) {
+    background-image: url('../img/WOMEN_LOUNGEWEAR_ROBE.webp');
+}
+
+.white.w_lounge .swiper-container .swiper-wrapper .swiper-slide:nth-child(3) {
+    background-image: url('../img/WOMEN_LOUNGEWEAR_CAMI_AND_DRESS.webp');
+}
+
+.white.m_lounge .swiper-container .swiper-wrapper .swiper-slide:first-child {
+    background-image: url('../img/MEN_LOUNGEWEAR_ROBE.webp');
+}
+
+.white.m_lounge .swiper-container .swiper-wrapper .swiper-slide:nth-child(2) {
+    background-image: url('../img/MEN_LOUNGEWEAR_PAJAMA2.webp');
+}
+
+.white.m_lounge .swiper-container .swiper-wrapper .swiper-slide:nth-child(3) {
+    background-image: url('../img/MEN_LOUNGEWEAR_PAJAMA_BOTTOM.webp');
+}
+
+.idiom {
+    width: 100vw;
+    height: 100vh;
+    background: rgb(7, 30, 12);
+}
+
+
+
+.idiom .wrap .text_wrap {
+    width: 90vw;
+    margin: 0 auto;
+    font-size: 4vh;
+    text-align: center;
+
+}
+
+.idiom .wrap .text_wrap p {
+    padding: 48vh 0;
+    color: white;
+}
+
+.white.w_casual .title_wrap h3,
+.white.bedding .title_wrap h3 {
+    margin-bottom: 1vh;
+    font-weight: bold;
+}
+
+.white.w_casual .title_wrap i,
+.white.bedding .title_wrap i,
+.takei_basic .title_wrap i {
+    display: block;
+    color: rgba(13, 51, 22, 1);
+    width: 90vw;
+    font-size: 2.5vh;
+    text-align: center;
+    line-height: 3.2vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.white.w_casual .swiper-container .swiper-wrapper .swiper-slide,
+.white.bedding .swiper-container .swiper-wrapper .swiper-slide {
+    height: 58vh;
+    width: 87vh;
+    margin-top: 15vh;
+}
+
+.white.w_casual .swiper-container .swiper-wrapper .swiper-slide:first-child {
+    background-image: url(../img/WOMEN_CASUALWEAR_SHIRT_1.webp);
+}
+
+.white.w_casual .swiper-container .swiper-wrapper .swiper-slide:nth-child(2) {
+    background-image: url(../img/WOMEN_CASUALWEAR_DRESS_1.webp);
+}
+
+.white.w_casual .swiper-container .swiper-wrapper .swiper-slide:nth-child(3) {
+    background-image: url(../img/WOMEN_CASUALWEAR_SWEATER_AND_KNITWEAR_1.webp);
+}
+
+.white.w_casual .swiper-container .swiper-wrapper .swiper-slide:nth-child(3) {
+    background-image: url(../img/WOMEN_CASUALWEAR_TOP2.webp);
+}
+
+.white.w_casual .swiper-container .swiper-wrapper .swiper-slide:nth-child(4) {
+    background-image: url(../img/WOMEN_CASUALWEAR_BOTTOM.webp);
+}
+
+.white.w_casual .swiper-container .swiper-wrapper .swiper-slide:nth-child(5) {
+    background-image: url(../img/WOMEN_CASUALWEAR_JUMPSUIT2.webp);
+}
+
+.white.bedding .swiper-container .swiper-wrapper .swiper-slide:nth-child(1) {
+    background-image: url(../img/BEDDING_DUVET.webp);
+}
+
+.white.bedding .swiper-container .swiper-wrapper .swiper-slide:nth-child(2) {
+    background-image: url(../img/BEDDING_SHEETS.webp);
+}
+
+.white.bedding .swiper-container .swiper-wrapper .swiper-slide:nth-child(3) {
+    background-image: url(../img/BEDDING_THROW_PILLOW.webp);
+}
+
+
+.takei_basic .title_wrap {
+    margin: 7vh 0;
+}
+
+.takei_basic .title_wrap h3 {
+    font-size: 8vh;
+    text-align: center;
+    color: rgba(13, 51, 22, 1);
+}
+
+.takei_basic .green {
+    height: 65vh;
+}
+
+.takei_basic .green .swiper-container {}
+
+.takei_basic .swiper-container .swiper-wrapper {
+    overflow: hidden;
+    width: calc(62.64vh * 11);
+    height: 50.98vh;
+}
+
+.takei_basic .swiper-container .swiper-wrapper .swiper-slide {
+    float: left;
+    height: 50.98vh;
+    width: 69.6vh;
+    background: white;
+    margin: 7vh;
+
+
+
+
+}
+
+.takei_basic .swiper-container .swiper-wrapper .swiper-slide a {
+    display: block;
+    margin: auto;
+    width: 62.64vh;
+    height: 41.75vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.takei_basic .swiper-container .swiper-wrapper .swiper-slide:nth-child(1) a {
+    background-image: url(../img/WOMEN_TAKEI_BASIC_T-SHIRTS.webp);
+}
+
+.takei_basic .swiper-container .swiper-wrapper .swiper-slide:nth-child(2) a {
+    background-image: url(../img/WOMEN_TAKEI_BASIC_LONG_SLEEVE.webp);
+}
+
+.takei_basic .swiper-container .swiper-wrapper .swiper-slide:nth-child(3) a {
+    background-image: url(../img/WOMEN_TAKEI_BASIC_TANK_AND_CAMI.webp);
+}
+
+.takei_basic .swiper-container .swiper-wrapper .swiper-slide:nth-child(4) a {
+    background-image: url(../img/WOMEN_TAKEI_BASIC_DRESS.webp);
+}
+
+.takei_basic .swiper-container .swiper-wrapper .swiper-slide:nth-child(5) a {
+    background-image: url(../img/WOMEN_TAKEI_BASIC_LEGGINGS.webp);
+}
+
+.takei_basic .swiper-container .swiper-wrapper .swiper-slide:nth-child(6) a {
+    background-image: url(../img/WOMEN_TAKEI_BASIC_BOTTOM.webp);
+}
+
+.takei_basic .swiper-container .swiper-wrapper .swiper-slide:nth-child(7) a {
+    background-image: url(../img/MEN_TAKEI_BASIC_T-SHIRTS.webp);
+}
+
+.takei_basic .swiper-container .swiper-wrapper .swiper-slide:nth-child(8) a {
+    background-image: url(../img/MEN_TAKEI_BASIC_LONG_SLEEVE.webp);
+}
+
+.towel {
+    height: 937px;
+    background: #fff;
+    position: relative;
+}
+
+.towel .text_wrap {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgba(13, 51, 22, 1);
+
+}
+
+.towel .text_wrap span {
+    display: block;
+    font-size: 2.2vh;
+    margin-bottom: 2vh;
+
+}
+
+.towel .text_wrap p {
+    font-size: 11.5vh;
+    margin-bottom: 2vh;
+
+}
+
+.towel a .btn_discover {
+    display: block;
+    font-size: 3vh;
+    color: rgba(13, 51, 22, 1);
+    font-weight: bold;
+}
+
+.green.journal {
+    position: relative;
+    width: 100%;
+}
+
+.green.journal .title_wrap {
+
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+.green.journal .title_wrap h3 {
+    padding-top: 8vh;
+    font-size: 10vh;
+    line-height: 20vh;
+}
+
+.green.journal .title_wrap i {
+
+    font-size: 2.5vh;
+    width: 100%;
+    line-height: 5.5vh;
+}
+
+.green.journal .journal_wrap {
+    position: absolute;
+    width: 70vh;
+    height: 77vh;
+    background: white;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 8vh;
+}
+
+.green.journal .journal_wrap a {
+    width: 100%;
+    height: 100%;
+}
+
+.green.journal .journal_wrap .bg_img {
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/jt000001.webp);
+    width: 64vh;
+    margin: auto;
+    height: 70.5vh;
+    margin-top: 3vh;
+}
+
+.green.journal .journal_wrap .bg_img .text_wrap {
+    color: rgba(13, 51, 22, 1);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: bold;
+}
+
+.green.journal .journal_wrap .bg_img .text_wrap span {
+    display: block;
+    font-size: 2.4vh;
+
+
+}
+
+.green.journal .journal_wrap .bg_img .text_wrap p {
+    display: block;
+    font-size: 6.5vh;
+    margin-top: 3vh;
+
+    width: 63vh;
+
+}
+
+.green.journal .journal_wrap .bg_img .text_wrap .btn_discover {
+    display: block;
+    font-size: 3vh;
+    text-align: center;
+    margin-top: 12vh;
+
+
+}
+
+.mailing {
+    margin-top: 10vh;
+    position: relative;
+}
+
+.mailing .mailing_wrap {
+    height: 110vh;
+    width: 110vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/footer_image.webp);
+}
+
+.mailing .mailing_wrap .cont_wrap {
+    position: absolute;
+    width: 691px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+.mailing .mailing_wrap .cont_wrap span {
+    display: block;
+    font-size: 2.4vh;
+}
+
+.mailing .mailing_wrap .cont_wrap h2 {
+    font-size: 9.5vh;
+    margin: 1.5vh 0;
+}
+
+.mailing .mailing_wrap .cont_wrap input {
+    display: block;
+    margin-top: 3vh;
+    width: 100%;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    background: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+
+
+}
+
+.mailing .mailing_wrap .cont_wrap .btn_join {
+    
+    color: rgba(255, 255, 255, 0.8);
+    background: transparent;
+    outline-color: rgba(255, 255, 255, 0.8);
+    
+    font-size: 0.9375rem;
+    line-height: 3;
+    width: 83px;
+    height: 42px;
+    margin: 0 auto;
+    box-shadow: 0px 1px 5px 0px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 3px 1px -2px rgb(0 0 0 / 12%);
 }

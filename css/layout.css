@@ -180,3 +180,112 @@ header .sc_visual .text_wrap span {
     font-size: 50px;
     margin-top: 70px;
 }
+
+footer{
+    width: 100vw;
+    margin-top: 10vh;
+    padding-top: 5vh;
+    background: white;
+    font-weight: bold;
+}
+footer .inner{
+    padding: 0 5vw;
+    
+    overflow: hidden;
+}
+
+footer .inner>div{
+    float: left;
+    width: 25%;
+    color: rgba(13,51,22,1);
+    font-size: 20px;
+}
+footer .inner .info .address{
+    font-size: 20px;
+}
+footer .inner .info .address p{
+    
+    margin-bottom: 5px;
+}
+footer .inner .info .payment{
+ 
+}
+footer .inner .info .payment .pay_wrap{
+    overflow: hidden;
+    width: 300px;
+    height: 57px;
+    padding-top: 15px;
+}
+footer .inner .info .payment .pay_wrap a{
+    float: left;
+    display: inline-block;
+   
+    margin-left: 3px; 
+}
+footer .inner .info .payment .pay_wrap a i{
+    display: block;
+    width: 40px;
+    height: 24px;
+    background: #000;
+}
+
+footer .inner .info .follow .follow_wrap{
+    width: 180px;
+    overflow: hidden;
+    margin-top: 5px;
+}
+footer .inner .info .follow .follow_wrap a{
+    display: block;
+    float: left;
+    margin-right: 20px;
+    width: 18px;
+    height: 18px;
+}
+footer .inner .info .follow .follow_wrap a i{
+ background: #000;
+  width: 100%;
+  display: block;
+  height: 100%;
+}
+
+footer .inner .policy p,
+footer .inner .imformations p{
+    margin-bottom: 38px;
+}
+footer .inner .policy p a{
+    display: block;
+   
+}
+
+footer .inner .policy a span,
+footer .inner .imformations a span{
+    display: block;
+    font-size: 14px;
+    text-align: left;
+    margin-top: 18px;
+}
+
+
+footer .inner .mark a{
+    display: block;
+    width: 110px;
+    height: auto;
+}
+footer .inner .mark a img{
+    width: 110px;
+    height: 110px;
+    display: block;
+    background: #000;
+    margin-left: 10vw;
+    
+}
+footer .footer_copy{
+    color: rgba(255,255,255,1);
+    width: 100vw;
+    font-size: 13px;
+    background: rgba(13,51,22,1);
+    margin-top: 15vh;
+    text-align: center;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}

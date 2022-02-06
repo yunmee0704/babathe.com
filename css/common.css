@@ -22,7 +22,7 @@
     height: 16px;
     bottom: 0;
     font-size: 14px;
-    color: rgba(13,51,22,0.8);
+    color: rgba(13, 51, 22, 1);
     
 }
 .pagination .btn.prev{
@@ -38,7 +38,7 @@
     height: 16px;
     bottom: 0;
     font-size: 14px;
-    color: rgba(13,51,22,0.8);
+    color: rgba(13,51,22,1);
     
 }
 .pagination .btn_white.prev{
@@ -110,7 +110,7 @@
 .white .swiper-container .text_wrap p{
     font-size: 10vh;
     text-align: center;
-    overflow-wrap: break-word;
+    
 }
 .white .swiper-container .btn_discover{
     display: block;
@@ -118,8 +118,9 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 100px;
+    bottom: 150px;
     color: white;
+    font-weight: bold;
 }
 
 .white .pagination{
@@ -135,7 +136,8 @@
     height: 16px;
     bottom: 0;
     font-size: 14px;
-    color: rgba(13,51,22,0.8);
+    font-weight: bold;
+    color: rgba(13,51,22, 1);
     
 }
 .white .pagination .btn.prev{
@@ -167,7 +169,7 @@
     font-size: 4.1vh;
     line-height: 4.5vh;
 }
-.green .swiper-container{}
+
 .green .swiper-container .swiper-wrapper{
     overflow: hidden;
     width: calc(676.8px * 6);
