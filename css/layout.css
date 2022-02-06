@@ -1,0 +1,182 @@
+@import url('./common.css');
+@import url('./reset.css');
+
+
+
+header {
+    background-image: url(../img/toptop.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 880px;
+
+}
+
+header .discount_offer {
+    background: rgba(13, 51, 22, 1);
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    padding: 3px 0;
+}
+
+header .discount_offer span {
+    display: block;
+    text-decoration: underline;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+
+
+}
+
+
+header .gnb_icon {
+    overflow: hidden;
+    padding: 0 30px;
+
+
+}
+
+header .gnb_icon h1 {
+    float: left;
+    background-color: Red;
+    width: 90px;
+    height: 33px;
+    top: 38px;
+    position: fixed;
+
+
+}
+
+header .gnb_icon .gnb {
+    float: left;
+    top: 38px;
+    left: 0;
+    right: 0;
+    width: 70vw;
+    margin: auto;
+
+    position: fixed;
+}
+
+.gnb::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+header .gnb_icon .gnb .title {
+    overflow: hidden;
+}
+
+header .gnb_icon .gnb .title a {
+    float: left;
+    width: calc(100% / 7);
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    height: 100%;
+    
+    line-height: 28px;
+}
+
+
+
+
+
+
+header .gnb .sub_menu li {
+
+    visibility: hidden;
+}
+
+header .gnb .sub_menu li.on {
+   
+    visibility: visible;
+    position: absolute;
+    top: 38px;
+    width: 100%;
+    color: rgba(13, 51, 22, 1);
+    font-weight: bold;
+ 
+    padding-bottom: 40px;
+    background-color: red;
+
+
+
+}
+
+#women {
+    height: 277px;
+
+}
+
+#men {
+    height: 225px;
+}
+
+#bedding,
+#bath {
+    height: 99px;
+
+}
+
+#journal{
+    height: 302px;
+}
+
+#sustain{
+    height: 267px;
+}
+
+header .gnb_icon .icons {
+    overflow: hidden;
+
+    display: inline-block;
+
+}
+
+
+
+
+header .gnb_icon .icons span {
+    float: left;
+    right: 60px;
+    top: 38px;
+    width: 22px;
+    height: 22px;
+    background-color: grey;
+    position: fixed;
+    z-index: 999;
+}
+
+header .gnb_icon .icons span:first-child {
+    margin-right: 40px;
+}
+
+header .sc_visual {
+    width: 100%;
+    height: 100%;
+}
+
+header .sc_visual .text_wrap {
+    width: 100%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+header .sc_visual .text_wrap p {
+    font-size: 120px;
+}
+
+header .sc_visual .text_wrap span {
+    display: block;
+    font-size: 50px;
+    margin-top: 70px;
+}

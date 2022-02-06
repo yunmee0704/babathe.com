@@ -1,0 +1,325 @@
+.blind {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    margin: -1px;
+    clip: rect(0 0 0 0);
+}
+
+
+/* pagination */
+.pagination{
+    width: 100vw;
+    height: 94px;
+    margin: 50px 0;
+    position: relative;
+    
+ }
+.pagination .btn{
+    position: absolute;
+    top: 0;
+    height: 16px;
+    bottom: 0;
+    font-size: 14px;
+    color: rgba(13,51,22,0.8);
+    
+}
+.pagination .btn.prev{
+    left: 6vw;
+}
+.pagination .btn.next{
+    right: 6vw;
+}
+
+.pagination .btn_white{
+    position: absolute;
+    top: 0;
+    height: 16px;
+    bottom: 0;
+    font-size: 14px;
+    color: rgba(13,51,22,0.8);
+    
+}
+.pagination .btn_white.prev{
+    left: 6vw;
+}
+.pagination .btn_white.next{
+    right: 6vw;
+}
+
+
+
+/* white slide , new arrival */
+.new_arrival {
+   
+}
+
+.white h2,
+.white h3 {
+    color: rgba(13, 51, 22, 1);
+    font-size: 176px;
+    text-align: center;
+    font-weight: bold;
+    margin:10vh 0;
+}
+
+.white .swiper-container .swiper-wrapper {
+    overflow: hidden;
+    width: calc(58vh * 10);
+}
+
+
+
+.white .swiper-container .swiper-wrapper .swiper-slide{
+    float: left;
+    position: relative;
+    margin-right:45px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 87vh;
+    width: 58vh;
+
+}
+
+
+
+.white .swiper-container .swiper-wrapper li a {
+    display: block;
+    height: 100%;
+    
+}
+
+
+
+.white .swiper-container .text_wrap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   color:white;
+   text-align: center;
+}
+
+.white .swiper-container .text_wrap span{
+    display: block;
+    font-size: 2.2vh;
+    
+}
+.white .swiper-container .text_wrap p{
+    font-size: 10vh;
+    text-align: center;
+    overflow-wrap: break-word;
+}
+.white .swiper-container .btn_discover{
+    display: block;
+    font-size: 3vh;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 100px;
+    color: white;
+}
+
+.white .pagination{
+   width: 100vw;
+   height: 94px;
+   margin: 50px 0;
+   position: relative;
+   
+}
+.white .pagination .btn{
+    position: absolute;
+    top: 0;
+    height: 16px;
+    bottom: 0;
+    font-size: 14px;
+    color: rgba(13,51,22,0.8);
+    
+}
+.white .pagination .btn.prev{
+    left: 6vw;
+}
+.white .pagination .btn.next{
+    right: 6vw;
+}
+
+
+
+/* green slide and kimono series */
+.green{
+    height: 135vh;
+    background-color: #0d3316;
+    color: #f5f5f5;
+  
+}
+.green .title{
+    padding: 12vh 0;
+    text-align: center;
+}
+.green .title h2{
+    display: block;
+    font-size: 12vh;
+    line-height: 12vh;
+}
+.green .title h3{
+    font-size: 4.1vh;
+    line-height: 4.5vh;
+}
+.green .swiper-container{}
+.green .swiper-container .swiper-wrapper{
+    overflow: hidden;
+    width: calc(676.8px * 6);
+}
+.green .swiper-container .swiper-wrapper .swiper-slide{
+    float: left;
+    position: relative;
+    width: 70vh;
+    height: 77vh;
+    background: white;
+    margin-right: 50px;
+
+}
+.green .swiper-container .swiper-wrapper .swiper-slide a{
+  
+    display: block;
+}
+.green .swiper-container .swiper-wrapper .swiper-slide a .text_wrap{
+    margin-top: 7vh;
+    color: rgba(13,51,22,1);
+    text-align: center;
+}
+.green .swiper-container .swiper-wrapper .swiper-slide a .text_wrap span{
+    display: block;
+    font-size: 2.4vh;
+  
+    line-height: 1.2vh;
+}
+.green .swiper-container .swiper-wrapper .swiper-slide a .text_wrap p{
+    font-size: 9.5vh;
+   
+    
+    
+}
+.green .swiper-container .swiper-wrapper .swiper-slide a .img_wrap{
+    width: 63vh;
+    height: 42vh;
+    margin-top: 1vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+.green .swiper-container .swiper-wrapper .swiper-slide a .img_wrap img{
+    height: 100%;
+    display: block;
+}
+.green .swiper-container .swiper-wrapper .swiper-slide a{
+    display: block;
+}
+.green .swiper-container .swiper-wrapper .swiper-slide a .btn_discover{
+    margin-top: 5vh;
+    display: block;
+    color: rgba(13,51,22,1);
+    text-align: center;
+    font-size: 3vh;
+    font-weight: bold;
+}
+
+.green .swiper-container .pagination .btn{
+    color:white;
+}
+
+
+/* concept */
+
+.sc_concept{
+    width: 100%;
+    height: 150vh;
+    
+}
+.sc_concept .cont_wrap{
+    width: 100%;
+    height: 100%;
+}
+.sc_concept .cont_wrap .img_wrap{
+    width: 50%;
+    float: left;
+    height: 100%;
+    text-align: center;
+   
+}
+.sc_concept .cont_wrap .img_wrap img{
+    display: block;
+    width: 66vh;
+    margin: 234.250px 170.797px;
+    height: 100vh;
+   
+}
+.sc_concept .cont_wrap .text_wrap{
+    width: 50%;
+    overflow: hidden;
+    height: 100%;
+    position: relative;
+}
+.sc_concept .cont_wrap .text_wrap h2{
+    color: rgba(13,51,22,1);
+    font-size: 9vh;
+    margin-top: 45vh;
+    text-align: left;
+    line-height: 7vh;
+    font-weight: bold;
+    
+}
+.sc_concept .cont_wrap .text_wrap span{
+    color: rgba(13,51,22,1);
+    font-size: 2.9vh;
+    text-align: left;
+    line-height: 3.5vh;
+    padding-left: 1vh;
+    display: block;
+    font-weight: bold;
+    
+}
+.sc_concept .cont_wrap .text_wrap .brand{
+    margin-top: 5.2vh;
+    font-weight: normal;
+}
+.sc_concept .cont_wrap .text_wrap .desc1{
+    margin-top: 5.2vh;
+}
+.sc_concept .cont_wrap .text_wrap p{
+    color: rgba(13,51,22,1);
+    width: 37vw;
+    font-size: 2.2vh;
+    
+    text-align: left;
+    line-height: 2.8vh;
+    padding-left: 1vh;
+}
+.sc_concept .cont_wrap .learn_more{
+ 
+    width: 160px;
+    color: rgba(255,255,255,1);
+    bottom: 150px;
+    left: 450px;
+    margin: auto;
+    height: 160px;
+    display: inline-block;
+    position: absolute;
+    font-size: 18px;
+    text-align: center;
+    background: rgba(13,51,22,1);
+    border-radius: 100%;
+    font-weight: bold;
+ 
+}
+
+.sc_concept .cont_wrap .learn_more .btn_learn{
+    position: absolute;
+    display: block;
+    font-size: 18px;
+    color: rgba(255,255,255,1);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

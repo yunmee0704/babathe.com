@@ -1,0 +1,78 @@
+.new_arrival .swiper-container .swiper-wrapper li:first-child {
+
+    background-image: url(../img/sw9.webp);
+}
+
+.new_arrival .swiper-container .swiper-wrapper li:nth-child(2) {
+
+    background-image: url(../img/sw8.webp);
+}
+
+.new_arrival .swiper-container .swiper-wrapper li:nth-child(3) {
+
+    background-image: url(../img/sw12.webp);
+}
+
+.new_arrival .swiper-container .swiper-wrapper li:nth-child(4) {
+
+    background-image: url(../img/sw14.webp);
+}
+
+.new_arrival .swiper-container .swiper-wrapper li:nth-child(5) {
+
+    background-image: url(../img/ws1.webp);
+}
+
+.new_arrival .swiper-container .swiper-wrapper li:nth-child(6) {
+
+    background-image: url(../img/ws2.webp);
+}
+
+.new_arrival .swiper-container .swiper-wrapper li:nth-child(7) {
+
+    background-image: url(../img/ws3.webp);
+}
+
+.new_arrival .swiper-container .swiper-wrapper li:nth-child(8) {
+
+    background-image: url(../img/ms1.webp);
+}
+
+.new_arrival .swiper-container .swiper-wrapper li:nth-child(9) {
+
+    background-image: url(../img/ms2.webp);
+}
+
+
+/* lounge wear */
+
+.lounge_wear h2{
+    text-align: center;
+ font-size: 20vh;
+ color: rgba(13,51,22,1);
+}
+.lounge_wear span{
+    display: block;
+    color: rgba(13,51,22,1);
+    width: 90vw;
+    font-size: 2.5vh;
+    text-align: center;
+    line-height: 5.2vh;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.lounge_wear .img_wrap{
+    width: 100vw;
+    height: 95vh;
+    margin-top: 5vh;
+}
+.lounge_wear .img_wrap .bg{
+    display: block;
+    background-image: url(../img/ltopphoto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 95vh;
+}
