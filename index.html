@@ -12,8 +12,12 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;700&family=Noto+Sans+KR:wght@300;400;500&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./jquery-1.12.4.min.js"></script>
 
-    <script src="../jquery-1.12.4.min.js"></script>
+
+
     <title>Document</title>
 </head>
 
@@ -171,9 +175,9 @@
     <main>
         <section class="white new_arrival">
             <h2><span class="blind">new arrival</span>NEW ARRIVAL</h2>
-            <div class="swiper-container">
-                <ul class="swiper-wrapper">
-                    <li class="swiper-slide">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide one">
                         <a href="">
 
                             <div class="text_wrap">
@@ -185,8 +189,8 @@
 
 
                         </a>
-                    </li>
-                    <li class="swiper-slide">
+                    </div>
+                    <div class="swiper-slide two">
                         <a href="">
 
                             <div class="text_wrap">
@@ -198,22 +202,8 @@
 
 
                         </a>
-                    </li>
-                    <li class="swiper-slide">
-                        <a href="">
-
-                            <div class="text_wrap">
-                                <span>NEW ARRIVAL</span>
-                                <P>DRESS</P>
-                            </div>
-
-                            <a href=""><span class="btn_discover">DISCOVER</span></a>
-
-
-
-                        </a>
-                    </li>
-                    <li class="swiper-slide">
+                    </div>
+                    <div class="swiper-slide three">
                         <a href="">
 
                             <div class="text_wrap">
@@ -225,8 +215,8 @@
 
 
                         </a>
-                    </li>
-                    <li class="swiper-slide">
+                    </div>
+                    <div class="swiper-slide four">
                         <a href="">
 
                             <div class="text_wrap">
@@ -238,8 +228,8 @@
 
 
                         </a>
-                    </li>
-                    <li class="swiper-slide">
+                    </div>
+                    <div class="swiper-slide five">
                         <a href="">
 
                             <div class="text_wrap">
@@ -251,8 +241,8 @@
 
 
                         </a>
-                    </li>
-                    <li class="swiper-slide">
+                    </div>
+                    <div class="swiper-slide six">
                         <a href="">
 
                             <div class="text_wrap">
@@ -264,8 +254,8 @@
 
 
                         </a>
-                    </li>
-                    <li class="swiper-slide">
+                    </div>
+                    <div class="swiper-slide seven">
                         <a href="">
 
                             <div class="text_wrap">
@@ -277,8 +267,8 @@
 
 
                         </a>
-                    </li>
-                    <li class="swiper-slide">
+                    </div>
+                    <div class="swiper-slide eight">
                         <a href="">
 
                             <div class="text_wrap">
@@ -290,15 +280,32 @@
 
 
                         </a>
-                    </li>
+                    </div>
+                    <div class="swiper-slide nine">
+                        <a href="">
+
+                            <div class="text_wrap">
+                                <span>NEW ARRIVAL</span>
+                                <P>DRESS</P>
+                            </div>
+                            <a href=""><span class="btn_discover">DISCOVER</span></a>
 
 
-                </ul>
+
+                        </a>
+                    </div>
+
+
+                </div>
 
                 <div class="pagination">
-                    <span class="btn prev">PREV</span>
-                    <span class="btn next">NEXT</span>
+
+                    <div class="btn prev">PREV</div>
+                    <div class="swiper-pagination"></div>
+                    <div class="btn next">NEXT</div>
+
                 </div>
+
             </div>
         </section>
         <section class="green kimono_series">
@@ -307,22 +314,23 @@
                 <h3>TAKEI COLLECTION 2021</h3>
             </div>
 
-            <div class="swiper-container">
-                <ul class="swiper-wrapper">
-                    <li class="swiper-slide">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide one">
                         <a href="">
                             <div class="text_wrap">
                                 <span>KIMONO SERIES</span>
                                 <p>DUVET</p>
                             </div>
                             <div class="img_wrap">
+
                                 <img src="./img/BEDDING_DUVET.webp" alt="">
                             </div>
 
                         </a>
                         <a href=""><span class="btn_discover">DISCOVER</span></a>
-                    </li>
-                    <li class="swiper-slide">
+                    </div>
+                    <div class="swiper-slide two">
                         <a href="">
                             <div class="text_wrap">
                                 <span>KIMONO SERIES</span>
@@ -333,8 +341,8 @@
                             </div>
                         </a>
                         <a href=""><span class="btn_discover">DISCOVER</span></a>
-                    </li>
-                    <li class="swiper-slide">
+                    </div>
+                    <div class="swiper-slide three">
                         <a href="">
                             <div class="text_wrap">
                                 <span>KIMONO SERIES</span>
@@ -345,8 +353,8 @@
                             </div>
                         </a>
                         <a href=""><span class="btn_discover">DISCOVER</span></a>
-                    </li>
-                    <li class="swiper-slide">
+                    </div>
+                    <div class="swiper-slide four">
                         <a href="">
                             <div class="text_wrap">
                                 <span>KIMONO SERIES</span>
@@ -357,8 +365,8 @@
                             </div>
                         </a>
                         <a href=""><span class="btn_discover">DISCOVER</span></a>
-                    </li>
-                    <li class="swiper-slide">
+                    </div>
+                    <div class="swiper-slide five">
                         <a href="">
                             <div class="text_wrap">
                                 <span>KIMONO SERIES</span>
@@ -369,12 +377,15 @@
                             </div>
                         </a>
                         <a href=""><span class="btn_discover">DISCOVER</span></a>
-                    </li>
-                </ul>
+                    </div>
+                </div>
 
-                <div class="pagination">
-                    <span class="btn_white prev">PREV</span>
-                    <span class="btn_white next">NEXT</span>
+                <div class="pagination white">
+
+                    <div class="btn prev">PREV</div>
+                    <div class="swiper-pagination"></div>
+                    <div class="btn next">NEXT</div>
+
                 </div>
             </div>
         </section>
@@ -415,9 +426,9 @@
 
         <section class="white w_lounge">
             <h2><span class="blind">WOMEN'S LOUNGEWEAR</span>WOMEN'S LOUNGEWEAR</h2>
-            <div class="swiper-container">
-                <ul class="swiper-wrapper">
-                    <li class="swiper-slide">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide one">
                         <a href="">
 
                             <div class="text_wrap">
@@ -428,8 +439,8 @@
 
 
                         </a>
-                    </li>
-                    <li class="swiper-slide">
+                    </div>
+                    <div class="swiper-slide two">
                         <a href="">
 
                             <div class="text_wrap">
@@ -442,8 +453,8 @@
                             <a href=""><span class="btn_discover">DISCOVER</span></a>
 
                         </a>
-                    </li>
-                    <li class="swiper-slide">
+                    </div>
+                    <div class="swiper-slide three">
                         <a href="">
 
                             <div class="text_wrap">
@@ -458,21 +469,24 @@
                             <a href=""><span class="btn_discover">DISCOVER</span></a>
 
                         </a>
-                    </li>
+                    </div>
 
-                </ul>
+                </div>
 
                 <div class="pagination">
-                    <span class="btn prev">PREV</span>
-                    <span class="btn next">NEXT</span>
+
+                    <div class="btn prev">PREV</div>
+                    <div class="swiper-pagination"></div>
+                    <div class="btn next">NEXT</div>
+
                 </div>
             </div>
         </section>
         <section class="white m_lounge">
             <h2><span class="blind">MEN'S LOUNGEWEAR</span>MEN'S LOUNGEWEAR</h2>
-            <div class="swiper-container">
-                <ul class="swiper-wrapper">
-                    <li class="swiper-slide">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide one">
                         <a href="">
                             <div class="bg_img">
                                 <div class="text_wrap">
@@ -484,8 +498,8 @@
                             </div>
 
                         </a>
-                    </li>
-                    <li class="swiper-slide">
+                    </div>
+                    <div class="swiper-slide two">
                         <a href="">
 
                             <div class="text_wrap">
@@ -498,8 +512,8 @@
                             <a href=""><span class="btn_discover">DISCOVER</span></a>
 
                         </a>
-                    </li>
-                    <li class="swiper-slide">
+                    </div>
+                    <div class="swiper-slide three">
                         <a href="">
 
                             <div class="text_wrap">
@@ -512,13 +526,16 @@
                             <a href=""><span class="btn_discover">DISCOVER</span></a>
 
                         </a>
-                    </li>
+                    </div>
 
-                </ul>
+                </div>
 
                 <div class="pagination">
-                    <span class="btn prev">PREV</span>
-                    <span class="btn next">NEXT</span>
+
+                    <div class="btn prev">PREV</div>
+                    <div class="swiper-pagination"></div>
+                    <div class="btn next">NEXT</div>
+
                 </div>
             </div>
         </section>
@@ -537,9 +554,9 @@
                 <i>For comfort you can bring with you day to night.</i>
             </div>
 
-            <div class="swiper-container">
-                <ul class="swiper-wrapper">
-                    <li class="swiper-slide">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide one">
                         <a href="">
 
                             <div class="text_wrap">
@@ -551,8 +568,8 @@
                             <a href=""><span class="btn_discover">DISCOVER</span></a>
 
                         </a>
-                    </li>
-                    <li class="swiper-slide">
+                    </div>
+                    <div class="swiper-slide two">
                         <a href="">
 
                             <div class="text_wrap">
@@ -562,8 +579,8 @@
                             <a href=""><span class="btn_discover">DISCOVER</span></a>
 
                         </a>
-                    </li>
-                    <li class="swiper-slide">
+                    </div>
+                    <div class="swiper-slide three">
                         <a href="">
 
                             <div class="text_wrap">
@@ -573,8 +590,8 @@
                             <a href=""><span class="btn_discover">DISCOVER</span></a>
 
                         </a>
-                    </li>
-                    <li class="swiper-slide">
+                    </div>
+                    <div class="swiper-slide four">
                         <a href="">
 
                             <div class="text_wrap">
@@ -584,8 +601,8 @@
                             <a href=""><span class="btn_discover">DISCOVER</span></a>
 
                         </a>
-                    </li>
-                    <li class="swiper-slide">
+                    </div>
+                    <div class="swiper-slide five">
                         <a href="">
 
                             <div class="text_wrap">
@@ -595,8 +612,8 @@
                             <a href=""><span class="btn_discover">DISCOVER</span></a>
 
                         </a>
-                    </li>
-                    <li class="swiper-slide">
+                    </div>
+                    <div class="swiper-slide six">
                         <a href="">
 
                             <div class="text_wrap">
@@ -608,13 +625,16 @@
 
 
                         </a>
-                    </li>
+                    </div>
 
-                </ul>
+                </div>
 
                 <div class="pagination">
-                    <span class="btn prev">PREV</span>
-                    <span class="btn next">NEXT</span>
+
+                    <div class="btn prev">PREV</div>
+                    <div class="swiper-pagination"></div>
+                    <div class="btn next">NEXT</div>
+
                 </div>
             </div>
         </section>
@@ -644,9 +664,9 @@
                 <i>For a cool, ultra-soft and luxurious night's sleep</i>
             </div>
 
-            <div class="swiper-container">
-                <ul class="swiper-wrapper">
-                    <li class="swiper-slide">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide one">
                         <a href="">
 
                             <div class="text_wrap">
@@ -658,8 +678,8 @@
 
                             <a href=""><span class="btn_discover">DISCOVER</span></a>
                         </a>
-                    </li>
-                    <li class="swiper-slide">
+                    </div>
+                    <div class="swiper-slide two">
                         <a href="">
                             <div class="text_wrap">
                                 <span>BEDDING</span>
@@ -668,25 +688,27 @@
                             <a href=""><span class="btn_discover">DISCOVER</span></a>
 
                         </a>
-                    </li>
-                    <li class="swiper-slide">
+                    </div>
+                    <div class="swiper-slide three">
                         <a href="">
 
                             <div class="text_wrap">
                                 <span>BEDDING</span>
                                 <P>PILLOW</P>
-                                <a href=""><span class="btn_discover">DISCOVER</span></a>
                             </div>
                             <a href=""><span class="btn_discover">DISCOVER</span></a>
 
                         </a>
-                    </li>
+                    </div>
 
-                </ul>
+                </div>
 
                 <div class="pagination">
-                    <span class="btn prev">PREV</span>
-                    <span class="btn next">NEXT</span>
+
+                    <div class="btn prev">PREV</div>
+                    <div class="swiper-pagination"></div>
+                    <div class="btn next">NEXT</div>
+
                 </div>
             </div>
         </section>
@@ -697,79 +719,79 @@
                 <i>For built-in quality and comfort fit for any wardrobe.</i>
             </div>
             <div class="green">
-                <div class="swiper-container">
-                    <ul class="swiper-wrapper">
-                        <li class="swiper-slide">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide one">
                             <a href="">
                                 <div class="text_wrap">
                                     <span>WOMEN</span>
                                     <P>T-SHIRTS</P>
-                                    
+                                    <a href=""><span class="btn_discover">DISCOVER</span></a>
                                 </div>
                                 <a href=""><span class="btn_discover">DISCOVER</span></a>
 
                             </a>
-                        </li>
-                        <li class="swiper-slide">
+                        </div>
+                        <div class="swiper-slide two">
                             <a href="">
 
                                 <div class="text_wrap">
                                     <span>WOMEN</span>
-                                    <P>LONG SLEEVE</P>                                   
+                                    <P>LONG SLEEVE</P>
                                 </div>
                                 <a href=""><span class="btn_discover">DISCOVER</span></a>
 
                             </a>
-                        </li>
-                        <li class="swiper-slide">
+                        </div>
+                        <div class="swiper-slide three">
                             <a href="">
 
                                 <div class="text_wrap">
                                     <span>WOMEN</span>
-                                    <P>TANK AND CAMI</P>                        
+                                    <P>TANK AND CAMI</P>
                                 </div>
                                 <a href=""><span class="btn_discover">DISCOVER</span></a>
                             </a>
-                        </li>
-                        <li class="swiper-slide">
+                        </div>
+                        <div class="swiper-slide four">
                             <a href="">
 
                                 <div class="text_wrap">
                                     <span>WOMEN</span>
-                                    <P>DRESS</P>                                    
+                                    <P>DRESS</P>
                                 </div>
                                 <a href=""><span class="btn_discover">DISCOVER</span></a>
                             </a>
-                        </li>
-                        <li class="swiper-slide">
+                        </div>
+                        <div class="swiper-slide five">
                             <a href="">
 
                                 <div class="text_wrap">
                                     <span>WOMEN</span>
-                                    <P>LEGGINGS</P>                                    
+                                    <P>LEGGINGS</P>
                                 </div>
                                 <a href=""><span class="btn_discover">DISCOVER</span></a>
                             </a>
-                        </li>
-                        <li class="swiper-slide">
+                        </div>
+                        <div class="swiper-slide six">
                             <a href="">
                                 <div class="text_wrap">
                                     <span>WOMEN</span>
-                                    <P>BOTTOM</P>                                    
+                                    <P>BOTTOM</P>
                                 </div>
                                 <a href=""><span class="btn_discover">DISCOVER</span></a>
                             </a>
-                        </li>
-                        <li class="swiper-slide">
+                        </div>
+                        <div class="swiper-slide seven">
                             <a href="">
                                 <div class="text_wrap">
                                     <span>MEN</span>
-                                    <P>T-SHIRTS</P>                                    
+                                    <P>T-SHIRTS</P>
                                 </div>
                                 <a href=""><span class="btn_discover">DISCOVER</span></a>
                             </a>
-                        </li>
-                        <li class="swiper-slide">
+                        </div>
+                        <div class="swiper-slide eight">
                             <a href="">
 
                                 <div class="text_wrap">
@@ -778,31 +800,34 @@
                                 </div>
                                 <a href=""><span class="btn_discover">DISCOVER</span></a>
                             </a>
-                        </li>
-                        <li class="swiper-slide">
+                        </div>
+                        <div class="swiper-slide nine">
                             <a href="">
                                 <div class="text_wrap">
                                     <span>MEN</span>
-                                    <P>TANK</P>                                    
+                                    <P>TANK</P>
                                 </div>
                                 <a href=""><span class="btn_discover">DISCOVER</span></a>
                             </a>
-                        </li>
-                        <li class="swiper-slide">
+                        </div>
+                        <div class="swiper-slide ten">
                             <a href="">
                                 <div class="text_wrap">
                                     <span>MEN</span>
-                                    <P>BOTTOM</P>                                    
+                                    <P>BOTTOM</P>
                                 </div>
                                 <a href=""><span class="btn_discover">DISCOVER</span></a>
                             </a>
-                        </li>
+                        </div>
 
-                    </ul>
+                    </div>
 
-                    <div class="white pagination">
-                        <span class="btn prev">PREV</span>
-                        <span class="btn next">NEXT</span>
+                    <div class="pagination white">
+
+                        <div class="btn prev">PREV</div>
+                        <div class="swiper-pagination"></div>
+                        <div class="btn next">NEXT</div>
+
                     </div>
 
                 </div>
@@ -814,8 +839,8 @@
                 <p>TOWEL</p>
                 <a href=""><span class="btn_discover">DISCOVER</span></a>
             </div>
-            
-            
+            <span class="btn_discover"><a href="">DISCOVER</a> </span>
+
         </section>
 
         <section class="green journal">
@@ -915,6 +940,7 @@
             <i>© 2022 TAKEI</i>
         </div>
     </footer>
+
     <script type="text/javascript" src="./js/main.js"></script>
 </body>
 

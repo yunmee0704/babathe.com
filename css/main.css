@@ -1,44 +1,49 @@
-.new_arrival .swiper-container .swiper-wrapper li:first-child {
+
+.new_arrival{
+ 
+}
+
+.new_arrival .swiper.mySwiper .swiper-wrapper .one {
 
     background-image: url(../img/sw9.webp);
 }
 
-.new_arrival .swiper-container .swiper-wrapper li:nth-child(2) {
+.new_arrival .swiper.mySwiper .swiper-wrapper .two {
 
     background-image: url(../img/sw8.webp);
 }
 
-.new_arrival .swiper-container .swiper-wrapper li:nth-child(3) {
+.new_arrival .swiper.mySwiper .swiper-wrapper .three {
 
     background-image: url(../img/sw12.webp);
 }
 
-.new_arrival .swiper-container .swiper-wrapper li:nth-child(4) {
+.new_arrival .swiper.mySwiper .swiper-wrapper .four {
 
     background-image: url(../img/sw14.webp);
 }
 
-.new_arrival .swiper-container .swiper-wrapper li:nth-child(5) {
+.new_arrival .swiper.mySwiper .swiper-wrapper .five {
 
     background-image: url(../img/ws1.webp);
 }
 
-.new_arrival .swiper-container .swiper-wrapper li:nth-child(6) {
+.new_arrival .swiper.mySwiper .swiper-wrapper .six {
 
     background-image: url(../img/ws2.webp);
 }
 
-.new_arrival .swiper-container .swiper-wrapper li:nth-child(7) {
+.new_arrival .swiper.mySwiper .swiper-wrapper .seven {
 
     background-image: url(../img/ws3.webp);
 }
 
-.new_arrival .swiper-container .swiper-wrapper li:nth-child(8) {
+.new_arrival .swiper.mySwiper .swiper-wrapper .eight {
 
     background-image: url(../img/ms1.webp);
 }
 
-.new_arrival .swiper-container .swiper-wrapper li:nth-child(9) {
+.new_arrival .swiper.mySwiper .swiper-wrapper .nine {
 
     background-image: url(../img/ms2.webp);
 }
@@ -94,27 +99,27 @@
 }
 
 
-.white.w_lounge .swiper-container .swiper-wrapper .swiper-slide:first-child {
+.white.w_lounge .swiper.mySwiper .swiper-wrapper .one {
     background-image: url('../img/WOMEN_LOUNGEWEAR_PAJAMA_BOTTOM.webp');
 }
 
-.white.w_lounge .swiper-container .swiper-wrapper .swiper-slide:nth-child(2) {
+.white.w_lounge .swiper.mySwiper .swiper-wrapper .two {
     background-image: url('../img/WOMEN_LOUNGEWEAR_ROBE.webp');
 }
 
-.white.w_lounge .swiper-container .swiper-wrapper .swiper-slide:nth-child(3) {
+.white.w_lounge .swiper.mySwiper .swiper-wrapper .three {
     background-image: url('../img/WOMEN_LOUNGEWEAR_CAMI_AND_DRESS.webp');
 }
 
-.white.m_lounge .swiper-container .swiper-wrapper .swiper-slide:first-child {
+.white.m_lounge .swiper.mySwiper .swiper-wrapper .one {
     background-image: url('../img/MEN_LOUNGEWEAR_ROBE.webp');
 }
 
-.white.m_lounge .swiper-container .swiper-wrapper .swiper-slide:nth-child(2) {
+.white.m_lounge .swiper.mySwiper .swiper-wrapper .two {
     background-image: url('../img/MEN_LOUNGEWEAR_PAJAMA2.webp');
 }
 
-.white.m_lounge .swiper-container .swiper-wrapper .swiper-slide:nth-child(3) {
+.white.m_lounge .swiper.mySwiper .swiper-wrapper .three {
     background-image: url('../img/MEN_LOUNGEWEAR_PAJAMA_BOTTOM.webp');
 }
 
@@ -158,46 +163,46 @@
     margin-right: auto;
 }
 
-.white.w_casual .swiper-container .swiper-wrapper .swiper-slide,
-.white.bedding .swiper-container .swiper-wrapper .swiper-slide {
+.white.w_casual .swiper.mySwiper .swiper-wrapper .swiper-slide,
+.white.bedding .swiper.mySwiper .swiper-wrapper .swiper-slide {
     height: 58vh;
     width: 87vh;
     margin-top: 15vh;
 }
 
-.white.w_casual .swiper-container .swiper-wrapper .swiper-slide:first-child {
+.white.w_casual .swiper.mySwiper .swiper-wrapper .one {
     background-image: url(../img/WOMEN_CASUALWEAR_SHIRT_1.webp);
 }
 
-.white.w_casual .swiper-container .swiper-wrapper .swiper-slide:nth-child(2) {
+.white.w_casual .swiper.mySwiper .swiper-wrapper .two {
     background-image: url(../img/WOMEN_CASUALWEAR_DRESS_1.webp);
 }
 
-.white.w_casual .swiper-container .swiper-wrapper .swiper-slide:nth-child(3) {
+.white.w_casual .swiper.mySwiper .swiper-wrapper .three {
     background-image: url(../img/WOMEN_CASUALWEAR_SWEATER_AND_KNITWEAR_1.webp);
 }
 
-.white.w_casual .swiper-container .swiper-wrapper .swiper-slide:nth-child(3) {
+.white.w_casual .swiper.mySwiper .swiper-wrapper .four {
     background-image: url(../img/WOMEN_CASUALWEAR_TOP2.webp);
 }
 
-.white.w_casual .swiper-container .swiper-wrapper .swiper-slide:nth-child(4) {
+.white.w_casual .swiper.mySwiper .swiper-wrapper .five {
     background-image: url(../img/WOMEN_CASUALWEAR_BOTTOM.webp);
 }
 
-.white.w_casual .swiper-container .swiper-wrapper .swiper-slide:nth-child(5) {
+.white.w_casual .swiper.mySwiper .swiper-wrapper .six {
     background-image: url(../img/WOMEN_CASUALWEAR_JUMPSUIT2.webp);
 }
 
-.white.bedding .swiper-container .swiper-wrapper .swiper-slide:nth-child(1) {
+.white.bedding .swiper.mySwiper .swiper-wrapper .one {
     background-image: url(../img/BEDDING_DUVET.webp);
 }
 
-.white.bedding .swiper-container .swiper-wrapper .swiper-slide:nth-child(2) {
+.white.bedding .swiper.mySwiper .swiper-wrapper .two {
     background-image: url(../img/BEDDING_SHEETS.webp);
 }
 
-.white.bedding .swiper-container .swiper-wrapper .swiper-slide:nth-child(3) {
+.white.bedding .swiper.mySwiper .swiper-wrapper .three {
     background-image: url(../img/BEDDING_THROW_PILLOW.webp);
 }
 
@@ -213,30 +218,25 @@
 }
 
 .takei_basic .green {
-    height: 65vh;
+    height: 41.75vh;
 }
 
-.takei_basic .green .swiper-container {}
+.takei_basic .green .mySwiper {overflow: hidden;}
 
-.takei_basic .swiper-container .swiper-wrapper {
-    overflow: hidden;
-    width: calc(62.64vh * 11);
-    height: 50.98vh;
+.takei_basic .green .mySwiper .swiper-wrapper {
+    height: 41.75vh;
 }
 
-.takei_basic .swiper-container .swiper-wrapper .swiper-slide {
+.takei_basic .green .mySwiper.swiper-wrapper .swiper-slide {
     float: left;
     height: 50.98vh;
     width: 69.6vh;
     background: white;
-    margin: 7vh;
-
-
-
+    position: relative;
 
 }
-
-.takei_basic .swiper-container .swiper-wrapper .swiper-slide a {
+ 
+.takei_basic .green .mySwiper .swiper-wrapper .swiper-slide a {
     display: block;
     margin: auto;
     width: 62.64vh;
@@ -245,39 +245,47 @@
     background-size: cover;
     background-position: center;
 }
+   
 
-.takei_basic .swiper-container .swiper-wrapper .swiper-slide:nth-child(1) a {
+
+.takei_basic .green .mySwiper .swiper-wrapper .swiper-slide.one a {
     background-image: url(../img/WOMEN_TAKEI_BASIC_T-SHIRTS.webp);
+    
 }
-
-.takei_basic .swiper-container .swiper-wrapper .swiper-slide:nth-child(2) a {
+.takei_basic .mySwiper .swiper-wrapper .swiper-slide.two a {
     background-image: url(../img/WOMEN_TAKEI_BASIC_LONG_SLEEVE.webp);
 }
 
-.takei_basic .swiper-container .swiper-wrapper .swiper-slide:nth-child(3) a {
+.takei_basic .mySwiper .swiper-wrapper .swiper-slide.three a {
     background-image: url(../img/WOMEN_TAKEI_BASIC_TANK_AND_CAMI.webp);
 }
 
-.takei_basic .swiper-container .swiper-wrapper .swiper-slide:nth-child(4) a {
+.takei_basic .mySwiper .swiper-wrapper .swiper-slide.four a {
     background-image: url(../img/WOMEN_TAKEI_BASIC_DRESS.webp);
 }
 
-.takei_basic .swiper-container .swiper-wrapper .swiper-slide:nth-child(5) a {
+.takei_basic .mySwiper .swiper-wrapper .swiper-slide.five a {
     background-image: url(../img/WOMEN_TAKEI_BASIC_LEGGINGS.webp);
 }
 
-.takei_basic .swiper-container .swiper-wrapper .swiper-slide:nth-child(6) a {
+.takei_basic .mySwiper .swiper-wrapper .swiper-slide.six a {
     background-image: url(../img/WOMEN_TAKEI_BASIC_BOTTOM.webp);
 }
 
-.takei_basic .swiper-container .swiper-wrapper .swiper-slide:nth-child(7) a {
+.takei_basic .mySwiper .swiper-wrapper .swiper-slide.seven a {
     background-image: url(../img/MEN_TAKEI_BASIC_T-SHIRTS.webp);
 }
 
-.takei_basic .swiper-container .swiper-wrapper .swiper-slide:nth-child(8) a {
+.takei_basic .mySwiper .swiper-wrapper .swiper-slide.eight a {
     background-image: url(../img/MEN_TAKEI_BASIC_LONG_SLEEVE.webp);
 }
 
+.takei_basic .mySwiper .swiper-wrapper .swiper-slide.nine a {
+    background-image: url(../img/MEN_TAKEI_BASIC_TANK.webp);
+}
+.takei_basic .mySwiper .swiper-wrapper .swiper-slide.ten a {
+    background-image: url(../img/MEN_TAKEI_BASIC_BOTTOM.webp);
+}
 .towel {
     height: 937px;
     background: #fff;

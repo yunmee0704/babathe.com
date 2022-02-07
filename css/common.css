@@ -10,43 +10,76 @@
 
 /* pagination */
 .pagination{
-    width: 100vw;
+    display: block;
+    width: 100%;
     height: 94px;
     margin: 50px 0;
+   
     position: relative;
     
- }
-.pagination .btn{
-    position: absolute;
-    top: 0;
-    height: 16px;
-    bottom: 0;
-    font-size: 14px;
-    color: rgba(13, 51, 22, 1);
-    
-}
-.pagination .btn.prev{
-    left: 6vw;
-}
-.pagination .btn.next{
-    right: 6vw;
 }
 
-.pagination .btn_white{
-    position: absolute;
+
+.pagination .swiper-pagination{
+   display: block;
+   width: 100%;
+  }
+.swiper-pagination.swiper-pagination-progressbar.swiper-pagination-horizontal{
+    
+    width: 70%;
+    height: 1px;
     top: 0;
-    height: 16px;
+    left: 0;
+    width: 70vw;
+    right: 0;
+    height: 1px;
     bottom: 0;
+    margin: auto;
+    position: absolute;
+}
+.swiper-pagination-progressbar-fill {
+    background-color: rgba(13,51,22,0.8);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transform: scale(0);
+    transform-origin: left top;}
+
+
+.pagination .btn.prev{
+    
+    top: 0;
+    left: 6vw;
+    color: rgba(13,51,22,0.8);
+    bottom: 0;
+    height: 16px;
+    margin: auto;
+    z-index: 12;
+    position: absolute;
     font-size: 14px;
-    color: rgba(13,51,22,1);
+    font-weight: bold;
+}
+.pagination .btn.next{
+   
+    top: 0;
+    right: 6vw;
+    color: rgba(13,51,22,0.8);
+    bottom: 0;
+    height: 16px;
+    margin: auto;
+    z-index: 12;
+    position: absolute;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.pagination.white{
+  color:white;
     
 }
-.pagination .btn_white.prev{
-    left: 6vw;
-}
-.pagination .btn_white.next{
-    right: 6vw;
-}
+
 
 
 
@@ -63,56 +96,48 @@
     font-weight: bold;
     margin:10vh 0;
 }
-
-.white .swiper-container .swiper-wrapper {
+.white .swiper.mySwiper{
     overflow: hidden;
-    width: calc(58vh * 10);
 }
-
-
-
-.white .swiper-container .swiper-wrapper .swiper-slide{
+.white .swiper.mySwiper .swiper-wrapper {
+   
+    height: 87vh;
+    
+  }
+.white .swiper.mySwiper .swiper-wrapper .swiper-slide {
     float: left;
     position: relative;
-    margin-right:45px;
+    margin-right: 45px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 87vh;
     width: 58vh;
+  }
 
-}
-
-
-
-.white .swiper-container .swiper-wrapper li a {
+.white .swiper.mySwiper .swiper-wrapper .swiper-slide a {
     display: block;
     height: 100%;
-    
-}
+  }
 
-
-
-.white .swiper-container .text_wrap {
+.white .swiper.mySwiper .text_wrap {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-   color:white;
-   text-align: center;
-}
+    color: white;
+    text-align: center;
+  }
 
-.white .swiper-container .text_wrap span{
+  .white .swiper.mySwiper .text_wrap span {
     display: block;
     font-size: 2.2vh;
-    
-}
-.white .swiper-container .text_wrap p{
+  }
+  .white .swiper.mySwiper .text_wrap p {
     font-size: 10vh;
     text-align: center;
-    
-}
-.white .swiper-container .btn_discover{
+  }
+  .white .swiper.mySwiper .btn_discover {
     display: block;
     font-size: 3vh;
     position: absolute;
@@ -121,9 +146,9 @@
     bottom: 150px;
     color: white;
     font-weight: bold;
-}
+  }
 
-.white .pagination{
+/* .white .pagination{
    width: 100vw;
    height: 94px;
    margin: 50px 0;
@@ -145,7 +170,7 @@
 }
 .white .pagination .btn.next{
     right: 6vw;
-}
+} */
 
 
 
@@ -170,55 +195,55 @@
     line-height: 4.5vh;
 }
 
-.green .swiper-container .swiper-wrapper{
-    overflow: hidden;
-    width: calc(676.8px * 6);
+.green .swiper.mySwiper .swiper-wrapper{
+   
+ 
 }
-.green .swiper-container .swiper-wrapper .swiper-slide{
+.green .swiper.mySwiper .swiper-wrapper .swiper-slide{
     float: left;
     position: relative;
     width: 70vh;
-    height: 77vh;
+   
     background: white;
     margin-right: 50px;
 
 }
-.green .swiper-container .swiper-wrapper .swiper-slide a{
+.green .swiper.mySwiper .swiper-wrapper .swiper-slide a{
   
     display: block;
 }
-.green .swiper-container .swiper-wrapper .swiper-slide a .text_wrap{
+.green .swiper.mySwiper .swiper-wrapper .swiper-slide a .text_wrap{
     margin-top: 7vh;
     color: rgba(13,51,22,1);
     text-align: center;
 }
-.green .swiper-container .swiper-wrapper .swiper-slide a .text_wrap span{
+.green .swiper.mySwiper .swiper-wrapper .swiper-slide a .text_wrap span{
     display: block;
     font-size: 2.4vh;
   
     line-height: 1.2vh;
 }
-.green .swiper-container .swiper-wrapper .swiper-slide a .text_wrap p{
+.green .swiper.mySwiper .swiper-wrapper .swiper-slide a .text_wrap p{
     font-size: 9.5vh;
    
     
     
 }
-.green .swiper-container .swiper-wrapper .swiper-slide a .img_wrap{
+.green .swiper.mySwiper .swiper-wrapper .swiper-slide a .img_wrap{
     width: 63vh;
     height: 42vh;
     margin-top: 1vh;
     margin-left: auto;
     margin-right: auto;
 }
-.green .swiper-container .swiper-wrapper .swiper-slide a .img_wrap img{
+.green .swiper.mySwiper .swiper-wrapper .swiper-slide a .img_wrap img{
     height: 100%;
     display: block;
 }
-.green .swiper-container .swiper-wrapper .swiper-slide a{
+.green .swiper.mySwiper .swiper-wrapper .swiper-slide a{
     display: block;
 }
-.green .swiper-container .swiper-wrapper .swiper-slide a .btn_discover{
+.green .swiper.mySwiper .swiper-wrapper .swiper-slide a .btn_discover{
     margin-top: 5vh;
     display: block;
     color: rgba(13,51,22,1);
@@ -227,7 +252,7 @@
     font-weight: bold;
 }
 
-.green .swiper-container .pagination .btn{
+.green .swiper.mySwiper .pagination .btn{
     color:white;
 }
 
