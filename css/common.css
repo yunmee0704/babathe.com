@@ -1,3 +1,7 @@
+html {
+    scroll-behavior:smooth;
+}
+
 .blind {
     position: absolute;
     width: 1px;
@@ -36,6 +40,10 @@
     bottom: 0;
     margin: auto;
     position: absolute;
+}
+
+:root .swiper-pagination.swiper-pagination-progressbar.swiper-pagination-horizontal {
+    --swiper-theme-color: rgba(13,51,22,0.8);
 }
 .swiper-pagination-progressbar-fill {
     background-color: rgba(13,51,22,0.8);
@@ -79,7 +87,9 @@
   color:white;
     
 }
-
+:root .pagination.white .swiper-pagination.swiper-pagination-progressbar.swiper-pagination-horizontal {
+    --swiper-theme-color: white;
+}
 
 
 
@@ -329,7 +339,6 @@
     color: rgba(255,255,255,1);
     bottom: 150px;
     left: 450px;
-    margin: auto;
     height: 160px;
     display: inline-block;
     position: absolute;
@@ -338,7 +347,15 @@
     background: rgba(13,51,22,1);
     border-radius: 100%;
     font-weight: bold;
+    transition: .5s ;
  
+}
+
+.sc_concept .cont_wrap .learn_more:hover{
+    width: 190px;
+    height: 190px;
+    left: 435px;
+   bottom:135px;
 }
 
 .sc_concept .cont_wrap .learn_more .btn_learn{
