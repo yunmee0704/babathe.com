@@ -64,7 +64,8 @@ header .gnb_icon .gnb {
     float: left;
     width: 100%;
     z-index: 999;
-
+    
+ 
     
 }
 
@@ -83,8 +84,10 @@ header .gnb_icon .gnb .title {
     width: 70vw;
     margin: auto;
     
+    
   
 }
+
 
 header .gnb_icon .gnb .title a {
     float: left;
@@ -97,9 +100,12 @@ header .gnb_icon .gnb .title a {
     height: 100%;
   
     line-height: 28px;
+    
 }
 header .gnb_icon .gnb .title a:hover {
 text-decoration: underline;
+
+
 }
 
 
@@ -124,16 +130,27 @@ header .gnb .sub_menu>li{
   padding: 0 10%;
   box-sizing: border-box;
   text-align: center;
+  font-weight: bold;
+  
+  
+   
  
    
 }
-
+#women .sub_list>li,
+#men .sub_list>li{
+    font-weight: normal;
+}
+#women .sub_list h3,
+#men .sub_list h3{
+    font-weight: bold;
+}
 header .gnb .sub_menu .sub_list{
     display: inline-block;
      vertical-align: top;
      margin-left: 25%;
      font-size: 18px;
-    
+     padding: 30px 0;
      line-height: 1.5;
      text-align-last: left;
     }
@@ -145,8 +162,7 @@ header .gnb .sub_menu .sub_list:first-child{
 }
 header .gnb .sub_menu .sub_list h3{
   font-size: 20px;
-  font-weight: bold;
-   
+  
     
 }
 
@@ -163,25 +179,26 @@ header .gnb .sub_menu>li.on {
 }
 header .gnb .sub_menu>li.on .sub_list li:hover {
    text-decoration: underline;
+
 }
 
 #women {
-    height: 315px;
+    height: 375px;
 
 }
 
 #men {
-    height: 263px;
+    height: 323px;
 }
 
 #bedding,
 #bath {
-    height: 220px;
+    height: 250px;
 
 }
 
 #journal{
-    height: 440px;
+    height: 470px;
 }
 
 #sustain{

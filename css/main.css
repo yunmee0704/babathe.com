@@ -139,6 +139,7 @@
 .idiom .wrap .text_wrap p {
     padding: 48vh 0;
     color: white;
+  
 }
 
 .white.w_casual .title_wrap h3,
@@ -159,7 +160,10 @@
     margin-left: auto;
     margin-right: auto;
 }
-
+.white.w_casual .swiper.mySwiper .swiper-wrapper .swiper-slide .btn_discover{
+position: absolute;
+bottom: 50px;
+}
 .white.w_casual .swiper.mySwiper .swiper-wrapper .swiper-slide,
 .white.bedding .swiper.mySwiper .swiper-wrapper .swiper-slide {
     height: 58vh;
