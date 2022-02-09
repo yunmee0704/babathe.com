@@ -10,6 +10,8 @@ header {
     background-size: cover;
     width: 100%;
     height: 880px;
+  
+    
 
 }
 
@@ -17,6 +19,12 @@ header .discount_offer {
     background: rgba(13, 51, 22, 1);
     font-family: 'Helvetica', 'Arial', sans-serif;
     padding: 3px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+
 }
 
 header .discount_offer span {
@@ -32,31 +40,32 @@ header .discount_offer span {
 
 header .gnb_icon {
     overflow: hidden;
-    padding: 0 30px;
+    
 
 
 }
 
 header .gnb_icon h1 {
     float: left;
-    background-color: Red;
+    background-color: yellow;
     width: 90px;
     height: 33px;
     top: 38px;
+    left: 30px;
     position: fixed;
+    z-index: 999;
+  
+    
 
 
 }
 
 header .gnb_icon .gnb {
     float: left;
-    top: 38px;
-    left: 0;
-    right: 0;
-    width: 70vw;
-    margin: auto;
+    width: 100%;
+    z-index: 999;
 
-    position: fixed;
+    
 }
 
 .gnb::after {
@@ -66,69 +75,117 @@ header .gnb_icon .gnb {
 }
 
 header .gnb_icon .gnb .title {
-    overflow: hidden;
+    position: fixed;
+    z-index: 999;
+    top: 38px;
+    left: 0;
+    right: 0;
+    width: 70vw;
+    margin: auto;
+    
+  
 }
 
 header .gnb_icon .gnb .title a {
     float: left;
-    width: calc(100% / 7);
-    display: block;
+    margin-right: 90px;
+    display: inline-block;
     text-align: center;
     font-size: 18px;
-    font-weight: 400;
-    color: white;
-    height: 100%;
+    font-weight: 700;
     
+    height: 100%;
+  
     line-height: 28px;
 }
-
-
-
-
-
-
-header .gnb .sub_menu li {
-
-    visibility: hidden;
+header .gnb_icon .gnb .title a:hover {
+text-decoration: underline;
 }
 
-header .gnb .sub_menu li.on {
-   
-    visibility: visible;
-    position: absolute;
-    top: 38px;
+
+header .gnb_icon .gnb .title a:last-child {
+    margin-right: 0;
+}
+
+header .gnb .sub_menu{
+    /* visibility: hidden; */
     width: 100%;
-    color: rgba(13, 51, 22, 1);
-    font-weight: bold;
+    z-index: 998;
+    
+    position: relative;
+    background: white;
+    
+}
+header .gnb .sub_menu>li{
+  position: absolute;
+  width:70%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0 10%;
+  box-sizing: border-box;
+  text-align: center;
  
-    padding-bottom: 40px;
-    background-color: red;
+   
+}
+
+header .gnb .sub_menu .sub_list{
+    display: inline-block;
+     vertical-align: top;
+     margin-left: 25%;
+     font-size: 18px;
+    
+     line-height: 1.5;
+     text-align-last: left;
+    }
+header .gnb .sub_menu .sub_list:first-child{
+ margin-left: 0;
+ 
+   
+    
+}
+header .gnb .sub_menu .sub_list h3{
+  font-size: 20px;
+  font-weight: bold;
+   
+    
+}
 
 
-
+header .gnb .sub_menu>li.on {
+   
+    /* visibility: hidden; */
+    position: fixed;
+    color: rgba(13, 51, 22, 1);
+    width: 100%;
+    z-index: 998;
+    background: white;
+    padding-top: 83px;
+}
+header .gnb .sub_menu>li.on .sub_list li:hover {
+   text-decoration: underline;
 }
 
 #women {
-    height: 277px;
+    height: 315px;
 
 }
 
 #men {
-    height: 225px;
+    height: 263px;
 }
 
 #bedding,
 #bath {
-    height: 99px;
+    height: 220px;
 
 }
 
 #journal{
-    height: 302px;
+    height: 440px;
 }
 
 #sustain{
-    height: 267px;
+    height: 350px;
 }
 
 header .gnb_icon .icons {
@@ -141,18 +198,19 @@ header .gnb_icon .icons {
 
 
 
-header .gnb_icon .icons span {
+header .gnb_icon .icons .cart,
+header .gnb_icon .icons .search{
     float: left;
     right: 60px;
     top: 38px;
     width: 22px;
     height: 22px;
-    background-color: grey;
+    
     position: fixed;
     z-index: 999;
 }
 
-header .gnb_icon .icons span:first-child {
+header .gnb_icon .icons .search {
     margin-right: 40px;
 }
 
@@ -241,8 +299,8 @@ footer .inner .info .follow .follow_wrap a{
     width: 18px;
     height: 18px;
 }
-footer .inner .info .follow .follow_wrap a i{
- background: #000;
+footer .inner .info .follow .follow_wrap a img{
+ 
   width: 100%;
   display: block;
   height: 100%;

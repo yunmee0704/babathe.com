@@ -1,7 +1,4 @@
-
-.new_arrival{
- 
-}
+.new_arrival {}
 
 .new_arrival .swiper.mySwiper .swiper-wrapper .one {
 
@@ -206,20 +203,20 @@
     background-image: url(../img/BEDDING_THROW_PILLOW.webp);
 }
 
-.white.bedding .swiper.mySwiper .btn_discover{
-    bottom:80px;
+.white.bedding .swiper.mySwiper .btn_discover {
+    bottom: 80px;
 }
 
 
 .takei_basic .title_wrap {
- margin-bottom: 8vh;
+    margin-bottom: 8vh;
 
-  
+
 }
 
 .takei_basic .title_wrap h3 {
     font-size: 8vh;
-    
+
     text-align: center;
     color: rgba(13, 51, 22, 1);
 }
@@ -229,13 +226,13 @@
     padding: 9vh 0;
 }
 
-.takei_basic .green .mySwiper { 
+.takei_basic .green .mySwiper {
     height: 65vh;
 }
 
 .takei_basic .green .mySwiper .swiper-wrapper {
     height: 50.98vh;
-    
+
 }
 
 .takei_basic .green .mySwiper.swiper-wrapper .swiper-slide {
@@ -243,55 +240,63 @@
     height: 50.98vh;
     width: 69.6vh;
     background: white;
-   
+
+
 
 }
- 
+
 .takei_basic .green .mySwiper .swiper-wrapper .swiper-slide .img {
     position: absolute;
-    display: block;
-    top: 4.6vh;
-    left: 1.5vh;
+    display: inline-block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 62.64vh;
     height: 41.75vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-   
-   
+
+
+
 }
+
 .takei_basic .green .mySwiper .swiper-wrapper .swiper-slide .img .text_wrap {
     position: absolute;
     margin: 0;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color:white;
-    
+    color: white;
+
 }
+
 .takei_basic .green .mySwiper .swiper-wrapper .swiper-slide .img .text_wrap span {
     font-size: 2.2vh;
     line-height: 2;
-    
+
 }
+
 .takei_basic .green .mySwiper .swiper-wrapper .swiper-slide .img .text_wrap p {
     font-size: 6.5vh;
-    
+
 }
-.takei_basic .mySwiper .swiper-wrapper .swiper-slide .btn_discover{
+
+.takei_basic .mySwiper .swiper-wrapper .swiper-slide .btn_discover {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     bottom: 10vh;
-    color:white !important;
+    color: white !important;
 }
 
 
 .takei_basic .green .mySwiper .swiper-wrapper .swiper-slide.one .img {
     background-image: url(../img/WOMEN_TAKEI_BASIC_T-SHIRTS.webp);
-    
+
 }
-.takei_basic .mySwiper .swiper-wrapper .swiper-slide.two .img{
+
+.takei_basic .mySwiper .swiper-wrapper .swiper-slide.two .img {
     background-image: url(../img/WOMEN_TAKEI_BASIC_LONG_SLEEVE.webp);
 }
 
@@ -322,12 +327,14 @@
 .takei_basic .mySwiper .swiper-wrapper .swiper-slide.nine .img {
     background-image: url(../img/MEN_TAKEI_BASIC_TANK.webp);
 }
+
 .takei_basic .mySwiper .swiper-wrapper .swiper-slide.ten .img {
     background-image: url(../img/MEN_TAKEI_BASIC_BOTTOM.webp);
 }
+
 .towel {
     height: 937px;
-    background: #fff;
+
     position: relative;
 }
 
@@ -360,9 +367,9 @@
     font-size: 3vh;
     color: rgba(13, 51, 22, 1);
     font-weight: bold;
-   left: 50%;
-   transform: translateX(-50%);
-    }
+    left: 50%;
+    transform: translateX(-50%);
+}
 
 .green.journal {
     position: relative;
@@ -453,6 +460,7 @@
 .mailing {
     margin-top: 10vh;
     position: relative;
+    overflow: hidden;
 }
 
 .mailing .mailing_wrap {
@@ -500,11 +508,11 @@
 }
 
 .mailing .mailing_wrap .cont_wrap .btn_join {
-    
+
     color: rgba(255, 255, 255, 0.8);
     background: transparent;
     outline-color: rgba(255, 255, 255, 0.8);
-    
+
     font-size: 0.9375rem;
     line-height: 3;
     width: 83px;
