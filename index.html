@@ -5,300 +5,266 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/layout.css">
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;700&family=Noto+Sans+KR:wght@300;400;500&display=swap"
-        rel="stylesheet">
+    <title>Document</title>
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js" integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/main.css">
     <script src="./jquery-1.12.4.min.js"></script>
-    
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js" integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
 
 
-
-
-
-
-    <title>Document</title>
 </head>
 
 <body>
     <header>
         <div class="discount_offer">
-            <span>Join Email List And Get 10% OFF / Free Worldwide Shipping on All Orders Over $99</span>
+            <a>Join Email List And Get 10% OFF / Free Worldwide Shipping on All Orders Over $99</a>
         </div>
 
         <div class="gnb_icon">
-            <h1><span class="blind">logo</span> <a href=""><img src="" alt=""></a></h1>
+            <h1> <a href="" class="logo"><span class="blind">logo</span></a></h1>
             <div class="gnb">
-                <div class="title">
+                <nav>
 
-                    <a href="#women">WOMEN</a>
+                    <ul class="title">
+                        <li>
+                            <a href="#women">WOMEN</a>
+                            <div class="sub" id="women">
+                                <ul class="sub_list">
+                                    <li>
+                                        <h3>LOUNGEWEAR</h3>
+                                    </li>
+                                    <li>ROBE</li>
+                                    <li>PAJAMA TOP</li>
+                                    <li>PAJAMA BOTTOM</li>
+                                    <li>CAMI AND DRESS</li>
+                                </ul>
+                                <ul class="sub_list">
+                                    <li>
+                                        <h3>CASUALWEAR</h3>
+                                    <li>SWEATSHIRT & HOODIE</li>
+                                    <li>SWEATERS & KNITWEAR</li>
+                                    <li>SHIRT</li>
+                                    <li>DRESS</li>
+                                    <li>TOP</li>
+                                    <li>BOTTOM</li>
+                                    <li>JUMPSUIT</li>
+                                </ul>
+                                <ul class="sub_list">
+                                    <li>
+                                        <h3>TAKEI BASIC</h3>
+                                    </li>
+                                    <li>T-SHIRTS</li>
+                                    <li>TANK AND CAMI</li>
+                                    <li>LONG SLEEVE</li>
+                                    <li>DRESS</li>
+                                    <li>LEGGINGS</li>
+                                    <li>BOTTOM</li>
 
-                    <a href="#men">MEN</a>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="#men">MEN</a>
+                            <div class="sub" id="men">
+                                <ul class="sub_list">
+                                    <li>
+                                        <h3>LOUNGEWEAR</h3>
+                                    </li>
+                                    <li>PAJAMA TOP</li>
+                                    <li>PAJAMA BOTTOM</li>
+                                    <li>ROBE</li>
+                                </ul>
+                                <ul class="sub_list">
+                                    <li>
+                                        <h3>CASUALWEAR</h3>
+                                    </li>
+                                    <li>SWEATSHIRT & HOODIE</li>
+                                    <li>SWEATERS & KNITWEAR</li>
+                                    <li>SHIRT</li>
+                                    <li>TOP</li>
+                                    <li>BOTTOM</li>
+                                </ul>
+                                <ul class="sub_list">
+                                    <li>
+                                        <h3>TAKEI BASIC</h3>
+                                    </li>
+                                    <li>T-SHIRTS</li>
+                                    <li>TANK</li>
+                                    <li>LONG SLEEVE</li>
+                                    <li>BOTTOM</li>
 
-                    <a href="#bedding">BEDDING</a>
-
-                    <a href="#bath">BATH</a>
-
-                    <a href="#journal">JOURNAL</a>
-
-                    <a href="#sustain">SUSTAINABILITY</a>
-
-                    <a href="#about">ABOUT</a>
-
-                </div>
-
-
-                <ul class="sub_menu">
-                    <li id="women">
-
-                        <ul class="sub_list">
-                            <li>
-                                <h3>LOUNGEWEAR</h3>
-                            </li>
-                            <li>ROBE</li>
-                            <li>PAJAMA TOP</li>
-                            <li>PAJAMA BOTTOM</li>
-                            <li>CAMI AND DRESS</li>
-                        </ul>
-                        <ul class="sub_list">
-                            <li>
-                                <h3>CASUALWEAR</h3>
-                            <li>SWEATSHIRT & HOODIE</li>
-                            <li>SWEATERS & KNITWEAR</li>
-                            <li>SHIRT</li>
-                            <li>DRESS</li>
-                            <li>TOP</li>
-                            <li>BOTTOM</li>
-                            <li>JUMPSUIT</li>
-                        </ul>
-                        <ul class="sub_list">
-                            <li>
-                                <h3>TAKEI BASIC</h3>
-                            </li>
-                            <li>T-SHIRTS</li>
-                            <li>TANK AND CAMI</li>
-                            <li>LONG SLEEVE</li>
-                            <li>DRESS</li>
-                            <li>LEGGINGS</li>
-                            <li>BOTTOM</li>
-
-                        </ul>
-
-                    </li>
-                    <li id="men">
-                        <ul class="sub_list">
-                            <li>
-                                <h3>LOUNGEWEAR</h3>
-                            </li>
-                            <li>PAJAMA TOP</li>
-                            <li>PAJAMA BOTTOM</li>
-                            <li>ROBE</li>
-                        </ul>
-                        <ul class="sub_list">
-                            <li>
-                                <h3>CASUALWEAR</h3>
-                            </li>
-                            <li>SWEATSHIRT & HOODIE</li>
-                            <li>SWEATERS & KNITWEAR</li>
-                            <li>SHIRT</li>
-                            <li>TOP</li>
-                            <li>BOTTOM</li>
-                        </ul>
-                        <ul class="sub_list">
-                            <li>
-                                <h3>TAKEI BASIC</h3>
-                            </li>
-                            <li>T-SHIRTS</li>
-                            <li>TANK</li>
-                            <li>LONG SLEEVE</li>
-                            <li>BOTTOM</li>
-
-                        </ul>
-                    </li>
-                    <li id="bedding">
-                        <ul class="sub_list">
-                            <li>DUVET</li>
-                            <li>SHEETS</li>
-                            <li>DUVET INSERT</li>
-                            <li>THROW PILLOW</li>
-                        </ul>
-                    </li>
-                    <li id="bath">
-                        <ul class="sub_list">
-                            <li>TOWEL</li>
-                        </ul>
-                    </li>
-                    <li id="journal">
-                        <ul class="sub_list">
-                            <li>ART WOVEN IN</li>
-                            <li>SUSTAINABILITY</li>
-                            <li>BAMBOO PAJAMA</li>
-                            <li>CARING FOR EARTH</li>
-                            <li>WORK FROM HOME</li>
-                            <li>WHY IS BAMBOO CLOTHING EXPENSIVE</li>
-                            <li>PREVENT BAD HAIR DAYS</li>
-                            <li>STAY HEALTHIER IN BAMBOO FASHION</li>
-                        </ul>
-                    </li>
-                    <li id="sustain">
-                        <ul class="sub_list">
-                            <li>THE TALE OF TAKEI</li>
-                            <li>SOURCING OUR BAMBOO</li>
-                            <li>SUSTAINABLE LIFESTYLE</li>
-                            <li>PRODUCTION FACILITIES</li>
-                            <li>BENEFITS OF BAMBOO</li>
-                            <li>MAKE A DIFFERENCE</li>
-                            <li>BAMBOO FAQS</li>
-                        </ul>
-                    </li>
-
-                </ul>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="#bedding">BEDDING</a>
+                            <div class="sub" id="bedding">
+                                <ul class="sub_list">
+                                    <li>DUVET</li>
+                                    <li>SHEETS</li>
+                                    <li>DUVET INSERT</li>
+                                    <li>THROW PILLOW</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="#bath">BATH</a>
+                            <div class="sub" id="bath">
+                                <ul class="sub_list">
+                                    <li>TOWEL</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="#journal">JOURNAL</a>
+                            <div class="sub" id="journal">
+                                <ul class="sub_list">
+                                    <li>ART WOVEN IN</li>
+                                    <li>SUSTAINABILITY</li>
+                                    <li>BAMBOO PAJAMA</li>
+                                    <li>CARING FOR EARTH</li>
+                                    <li>WORK FROM HOME</li>
+                                    <li>WHY IS BAMBOO CLOTHING EXPENSIVE</li>
+                                    <li>PREVENT BAD HAIR DAYS</li>
+                                    <li>STAY HEALTHIER IN BAMBOO FASHION</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="#sustain">SUSTAINABILITY</a>
+                            <div class="sub" id="sustain">
+                                <ul class="sub_list">
+                                    <li>THE TALE OF TAKEI</li>
+                                    <li>SOURCING OUR BAMBOO</li>
+                                    <li>SUSTAINABLE LIFESTYLE</li>
+                                    <li>PRODUCTION FACILITIES</li>
+                                    <li>BENEFITS OF BAMBOO</li>
+                                    <li>MAKE A DIFFERENCE</li>
+                                    <li>BAMBOO FAQS</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="#about" class="last">ABOUT</a></li>
+                    </ul>
+                </nav>
             </div>
+            <div class="menu_bg"></div>
             <div class="icons">
-                <a href=""><img src="./img/outline_search_white_24dp.png" alt="" class="search"></a>
-                <a href=""><img src="./img/outline_shopping_bag_white_24dp.png" alt="" class="cart"></a>
+                <a href="" class="search"><span class="blind">검색</span></a>
+                <a href="" class="cart"><span class="blind">장바구니</span></a>
+
             </div>
         </div>
 
-        
 
 
-        <section class="sc_visual">
-            <div class="text_wrap">
-                <p>WORK FROM HOME<br>BACK TO NATURE</p>
-                <span>Scroll to Discover Takei Products</span>
-            </div>
-        </section>
+
     </header>
 
     <main>
+
+        <section class="sc_visual">
+            <img src="./img/toptop.webp" alt="">
+            <div class="text_wrap">
+                <h2>WORK FROM HOME<br>BACK TO NATURE</h2>
+                <p>Scroll to Discover Takei Products</p>
+            </div>
+        </section>
+
         <section class="white new_arrival">
-            <h2><span class="blind">new arrival</span>NEW ARRIVAL</h2>
-            <div class="swiper mySwiper">
+            <h2 class="title_txt">NEW ARRIVAL</h2>
+            <div class="swiper slide01">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide one">
-                        <a href="">
+                    <div class="swiper-slide">
 
-                            <div class="text_wrap">
-                                <span>NEW ARRIVAL</span>
-                                <P>DRESS</P>
-                            </div>
-                            <a href=""><span class="btn_discover">DISCOVER</span></a>
+                        <img src="./img/sw9.webp" alt="" class="bg">
+                        <div class="text_wrap">
+                            <span>NEW ARRIVAL</span>
+                            <P>DRESS</P>
+                        </div>
+                        <a href="" class="btn_discover"><span>DISCOVER</span></a>
 
 
 
-                        </a>
+
                     </div>
-                    <div class="swiper-slide two">
-                        <a href="">
+                    <div class="swiper-slide">
 
-                            <div class="text_wrap">
-                                <span>NEW ARRIVAL</span>
-                                <P>DRESS</P>
-                            </div>
-                            <a href=""><span class="btn_discover">DISCOVER</span></a>
+                        <img src="./img/sw8.webp" alt="" class="bg">
+                        <div class="text_wrap">
+                            <span>NEW ARRIVAL</span>
+                            <P>DRESS</P>
+                        </div>
+                        <a href="" class="btn_discover"><span>DISCOVER</span></a>
 
 
 
-                        </a>
+
                     </div>
-                    <div class="swiper-slide three">
-                        <a href="">
+                    <div class="swiper-slide">
 
-                            <div class="text_wrap">
-                                <span>NEW ARRIVAL</span>
-                                <P>HOODIE</P>
-                            </div>
-                            <a href=""><span class="btn_discover">DISCOVER</span></a>
+                        <img src="./img/sw12.webp" alt="" class="bg">
+                        <div class="text_wrap">
+                            <span>NEW ARRIVAL</span>
+                            <P>HOODIE</P>
+                        </div>
+                        <a href="" class="btn_discover"><span>DISCOVER</span></a>
 
 
 
-                        </a>
+
                     </div>
-                    <div class="swiper-slide four">
-                        <a href="">
+                    <div class="swiper-slide">
 
-                            <div class="text_wrap">
-                                <span>NEW ARRIVAL</span>
-                                <P>BOTTOM</P>
-                            </div>
-                            <a href=""><span class="btn_discover">DISCOVER</span></a>
+                        <img src="./img/sw14.webp" alt="" class="bg">
+                        <div class="text_wrap">
+                            <span>NEW ARRIVAL</span>
+                            <P>BOTTOM</P>
+                        </div>
+                        <a href="" class="btn_discover"><span>DISCOVER</span></a>
 
 
 
-                        </a>
+
                     </div>
-                    <div class="swiper-slide five">
-                        <a href="">
+                    <div class="swiper-slide">
 
-                            <div class="text_wrap">
-                                <span>NEW ARRIVAL</span>
-                                <P>SHIRT</P>
-                            </div>
-                            <a href=""><span class="btn_discover">DISCOVER</span></a>
+                        <img src="./img/ws1.webp" alt="" class="bg">
+                        <div class="text_wrap">
+                            <span>NEW ARRIVAL</span>
+                            <P>SHIRT</P>
+                        </div>
+                        <a href="" class="btn_discover"><span>DISCOVER</span></a>
 
 
 
-                        </a>
+
                     </div>
-                    <div class="swiper-slide six">
-                        <a href="">
+                    <div class="swiper-slide">
 
-                            <div class="text_wrap">
-                                <span>NEW ARRIVAL</span>
-                                <P>DRESS</P>
-                            </div>
-                            <a href=""><span class="btn_discover">DISCOVER</span></a>
+                        <img src="./img/ws2.webp" alt="" class="bg">
+                        <div class="text_wrap">
+                            <span>NEW ARRIVAL</span>
+                            <P>DRESS</P>
+                        </div>
+                        <a href="" class="btn_discover"><span>DISCOVER</span></a>
 
 
 
-                        </a>
+
                     </div>
-                    <div class="swiper-slide seven">
-                        <a href="">
+                    <div class="swiper-slide">
 
-                            <div class="text_wrap">
-                                <span>NEW ARRIVAL</span>
-                                <P>SWEATERS</P>
-                            </div>
-                            <a href=""><span class="btn_discover">DISCOVER</span></a>
-
-
-
-                        </a>
-                    </div>
-                    <div class="swiper-slide eight">
-                        <a href="">
-
-                            <div class="text_wrap">
-                                <span>NEW ARRIVAL</span>
-                                <P>SHIRT</P>
-                            </div>
-                            <a href=""><span class="btn_discover">DISCOVER</span></a>
+                        <img src="./img/ws3.webp" alt="" class="bg">
+                        <div class="text_wrap">
+                            <span>NEW ARRIVAL</span>
+                            <P>SWEATERS</P>
+                        </div>
+                        <a href="" class="btn_discover"><span>DISCOVER</span></a>
 
 
 
-                        </a>
-                    </div>
-                    <div class="swiper-slide nine">
-                        <a href="">
 
-                            <div class="text_wrap">
-                                <span>NEW ARRIVAL</span>
-                                <P>BOTTOM</P>
-                            </div>
-                            <a href=""><span class="btn_discover">DISCOVER</span></a>
-
-
-
-                        </a>
                     </div>
 
 
@@ -314,15 +280,17 @@
 
             </div>
         </section>
+
+
         <section class="green kimono_series">
             <div class="title">
-                <h2><span class="blind">kimono_series</span>KIMONO SERIES</h2>
-                <h3>TAKEI COLLECTION 2021</h3>
+                <h2>KIMONO SERIES</h2>
+                <p>TAKEI COLLECTION 2021</p>
             </div>
 
-            <div class="swiper mySwiper">
+            <div class="swiper slide02">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide one">
+                    <div class="swiper-slide">
                         <a href="">
                             <div class="text_wrap">
                                 <span>KIMONO SERIES</span>
@@ -330,23 +298,23 @@
                             </div>
                             <div class="img_wrap">
 
-                                <img src="./img/BEDDING_DUVET.webp" alt="">
+                                <img src="./img/BEDDING_DUVET.webp" alt="" class="bg">
                             </div>
 
                         </a>
-                        <a href=""><span class="btn_discover">DISCOVER</span></a>
+                        <a href="" class="btn_discover"><span>DISCOVER</span></a>
                     </div>
-                    <div class="swiper-slide two">
+                    <div class="swiper-slide">
                         <a href="">
                             <div class="text_wrap">
                                 <span>KIMONO SERIES</span>
                                 <p>PAJAMA</p>
                             </div>
                             <div class="img_wrap">
-                                <img src="./img/COLLECTION_KIMONO_SERIES_PAJAMA_BOTTOM.webp" alt="">
+                                <img src="./img/COLLECTION_KIMONO_SERIES_PAJAMA_BOTTOM.webp" alt="" class="bg">
                             </div>
                         </a>
-                        <a href=""><span class="btn_discover">DISCOVER</span></a>
+                        <a href="" class="btn_discover"><span>DISCOVER</span></a>
                     </div>
                     <div class="swiper-slide three">
                         <a href="">
@@ -355,10 +323,11 @@
                                 <p>ROBE</p>
                             </div>
                             <div class="img_wrap">
-                                <video src="https://takeihome.com/static/images/robe.mp4" preload="auto" autoplay loop>
+                                <video src="https://takeihome.com/static/images/robe.mp4" preload="auto" autoplay loop
+                                    class="bg">
                             </div>
                         </a>
-                        <a href=""><span class="btn_discover">DISCOVER</span></a>
+                        <a href="" class="btn_discover"><span>DISCOVER</span></a>
                     </div>
                     <div class="swiper-slide four">
                         <a href="">
@@ -367,10 +336,10 @@
                                 <p>CAMI</p>
                             </div>
                             <div class="img_wrap">
-                                <img src="./img/COLLECTION_KIMONO_SERIES_CAMI.webp" alt="">
+                                <img src="./img/COLLECTION_KIMONO_SERIES_CAMI.webp" alt="" class="bg">
                             </div>
                         </a>
-                        <a href=""><span class="btn_discover">DISCOVER</span></a>
+                        <a href="" class="btn_discover"><span>DISCOVER</span></a>
                     </div>
                     <div class="swiper-slide five">
                         <a href="">
@@ -379,10 +348,10 @@
                                 <p>SHEETS</p>
                             </div>
                             <div class="img_wrap">
-                                <img src="./img/COLLECTION_KIMONO_SERIES_SHEETS_W.webp" alt="">
+                                <img src="./img/COLLECTION_KIMONO_SERIES_SHEETS_W.webp" alt="" class="bg">
                             </div>
                         </a>
-                        <a href=""><span class="btn_discover">DISCOVER</span></a>
+                        <a href="" class="btn_discover"><span>DISCOVER</span></a>
                     </div>
                 </div>
 
@@ -394,442 +363,74 @@
 
                 </div>
             </div>
-        </section>
-        <section class="sc_concept intro">
-            <div class="cont_wrap">
-                <div class="img_wrap">
-                    <img src="./img/about1.webp" alt="">
-                </div>
-                <div class="text_wrap">
-                    <h2>SUSTAINABLE</h2>
-                    <span class="brand">
-                        /ta-ke-i/ Takei [竹衣] / たけい
-                    </span>
-                    <span>
-                        Sustainable Brand
-                    </span>
-                    <p class="desc1">
-                        Takei represents <b>mindful living</b>and <b>a passion for the sustainable</b>
-                    </p>
-                    <p class="desc2">
-                        Takei is a lifestyle brand centered on comfort with style.</p>
-                    <p class="desc3">Made from bamboo fabric that is soft, and cool to the touch;</p>
-                    <p class="desc2">Takei brings nature’s bounty home.</p>
-                    <div class="learn_more">
-                        <span class="btn_learn">learn_more</span>
+            <article class="sc_concept intro">
+                <div class="cont_wrap">
+                    <div class="img_wrap img_motion">
+                        <img src="./img/about1.webp" alt="">
                     </div>
-                </div>
+                    <div class="text_wrap">
+                        <h3>SUSTAINABLE</h3>
+                        <span class="brand">
+                            /ta-ke-i/ Takei [竹衣] / たけい
+                        </span>
+                        <span>
+                            Sustainable Brand
+                        </span>
+                        <p>
+                            <span>Takei represents <b>mindful living</b>and <b>a passion for the sustainable</b></span>
+                            <span>Takei is a lifestyle brand centered on comfort with style.</span>
+                            <span>Made from bamboo fabric that is soft, and cool to the touch;</span>
+                            <span>Takei brings nature’s bounty home.</span>
 
-            </div>
+                        </p>
+
+                        <a href="" class="learn_more">
+                            <span class="btn_learn">learn_more</span>
+                        </a>
+                    </div>
+
+                </div>
+            </article>
         </section>
+
         <section class="lounge_wear">
             <h2>LOUNGEWEAR</h2>
-            <span>For those with relaxation and slow living high on their agenda.</span>
-            <div class="img_wrap">
-                <div class="bg"></div>
+            <p>For those with relaxation and slow living high on their agenda.</p>
+            <div class="img_wrap img_motion">
+                <img src="../img/ltopphoto.jpg" alt="" class="bg">
             </div>
-        </section>
 
-        <section class="white w_lounge">
-            <h2><span class="blind">WOMEN'S LOUNGEWEAR</span>WOMEN'S LOUNGEWEAR</h2>
-            <div class="swiper mySwiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide one">
-                        <a href="">
-
+            <article class="white lounge">
+                <h3>WOMEN'S LOUNGEWEAR</h3>
+                <div class="swiper slide01">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./img/WOMEN_LOUNGEWEAR_PAJAMA_BOTTOM.webp" alt="" class="bg">
                             <div class="text_wrap">
-                                <span>WOMEN'S LOUNGEWEAR</span>
+                                <span>WOMEN LOUNGEWEAR</span>
                                 <P>PAJAMA</P>
                             </div>
-                            <a href=""><span class="btn_discover">DISCOVER</span></a>
-
-
-                        </a>
-                    </div>
-                    <div class="swiper-slide two">
-                        <a href="">
-
+                            <a href="" class="btn_discover"><span>DISCOVER</span></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/WOMEN_LOUNGEWEAR_ROBE.webp" alt="" class="bg">
                             <div class="text_wrap">
-                                <span>WOMEN'S LOUNGEWEARL</span>
+                                <span>WOMEN LOUNGEWEAR</span>
                                 <P>ROBE</P>
-
                             </div>
-
-
-                            <a href=""><span class="btn_discover">DISCOVER</span></a>
-
-                        </a>
-                    </div>
-                    <div class="swiper-slide three">
-                        <a href="">
-
+                            <a href="" class="btn_discover"><span>DISCOVER</span></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/WOMEN_LOUNGEWEAR_CAMI_AND_DRESS.webp" alt="" class="bg">
                             <div class="text_wrap">
-                                <span>WOMEN'S LOUNGEWEARL</span>
+                                <span>WOMEN LOUNGEWEAR</span>
                                 <P>CAMI</P>
-
-
-
                             </div>
-
-
-                            <a href=""><span class="btn_discover">DISCOVER</span></a>
-
-                        </a>
-                    </div>
-
-                </div>
-
-                <div class="pagination">
-
-                    <div class="btn prev">PREV</div>
-                    <div class="swiper-pagination"></div>
-                    <div class="btn next">NEXT</div>
-
-                </div>
-            </div>
-        </section>
-        <section class="white m_lounge">
-            <h2><span class="blind">MEN'S LOUNGEWEAR</span>MEN'S LOUNGEWEAR</h2>
-            <div class="swiper mySwiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide one">
-                        <a href="">
-                            
-                                <div class="text_wrap">
-                                    <span>MEN'S LOUNGEWEARL</span>
-                                    <P>ROBE</P>
-
-                                    
-                                </div>
-                                <a href=""><span class="btn_discover">DISCOVER</span></a>
-
-                        </a>
-                    </div>
-                    <div class="swiper-slide two">
-                        <a href="">
-
-                            <div class="text_wrap">
-                                <span>MEN'S LOUNGEWEARL</span>
-                                <P>TOP</P>
-
-
-
-                            </div>
-                            <a href=""><span class="btn_discover">DISCOVER</span></a>
-
-                        </a>
-                    </div>
-                    <div class="swiper-slide three">
-                        <a href="">
-
-                            <div class="text_wrap">
-                                <span>MEN'S LOUNGEWEARL</span>
-                                <P>BOTTOM</P>
-
-
-
-                            </div>
-                            <a href=""><span class="btn_discover">DISCOVER</span></a>
-
-                        </a>
-                    </div>
-
-                </div>
-
-                <div class="pagination">
-
-                    <div class="btn prev">PREV</div>
-                    <div class="swiper-pagination"></div>
-                    <div class="btn next">NEXT</div>
-
-                </div>
-            </div>
-        </section>
-
-        <section class="idiom">
-            <div class="wrap">
-                <div class="text_wrap">
-                    <p>"Nature itself is the best physician." - Hippocrates</p>
-                </div>
-            </div>
-        </section>
-
-        <section class="white w_casual">
-            <div class="title_wrap">
-                <h3><span class="blind">CASUALWEAR</span>CASUALWEAR</h3>
-                <i>For comfort you can bring with you day to night.</i>
-            </div>
-
-            <div class="swiper mySwiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide one">
-                        <a href="">
-
-                            <div class="text_wrap">
-                                <span>WOMENCASUALWEAR</span>
-                                <P>SHIRT</P>
-
-
-                            </div>
-                            <a href=""><span class="btn_discover">DISCOVER</span></a>
-
-                        </a>
-                    </div>
-                    <div class="swiper-slide two">
-                        <a href="">
-
-                            <div class="text_wrap">
-                                <span>WOMENCASUALWEAR</span>
-                                <P>DRESS</P>
-                            </div>
-                            <a href=""><span class="btn_discover">DISCOVER</span></a>
-
-                        </a>
-                    </div>
-                    <div class="swiper-slide three">
-                        <a href="">
-
-                            <div class="text_wrap">
-                                <span>WOMENCASUALWEAR</span>
-                                <P>SWEATERS</P>
-                            </div>
-                            <a href=""><span class="btn_discover">DISCOVER</span></a>
-
-                        </a>
-                    </div>
-                    <div class="swiper-slide four">
-                        <a href="">
-
-                            <div class="text_wrap">
-                                <span>WOMENCASUALWEAR</span>
-                                <P>TOP</P>
-                            </div>
-                            <a href=""><span class="btn_discover">DISCOVER</span></a>
-
-                        </a>
-                    </div>
-                    <div class="swiper-slide five">
-                        <a href="">
-
-                            <div class="text_wrap">
-                                <span>WOMENCASUALWEAR</span>
-                                <P>BOTTOM</P>
-                            </div>
-                            <a href=""><span class="btn_discover">DISCOVER</span></a>
-
-                        </a>
-                    </div>
-                    <div class="swiper-slide six">
-                        <a href="">
-
-                            <div class="text_wrap">
-                                <span>WOMENCASUALWEAR</span>
-                                <P>JUMPSUIT</P>
-
-                            </div>
-                            <a href=""><span class="btn_discover">DISCOVER</span></a>
-
-
-                        </a>
-                    </div>
-
-                </div>
-
-                <div class="pagination">
-
-                    <div class="btn prev">PREV</div>
-                    <div class="swiper-pagination"></div>
-                    <div class="btn next">NEXT</div>
-
-                </div>
-            </div>
-        </section>
-        <section class="sc_concept m_casual">
-            <div class="cont_wrap">
-                <div class="img_wrap">
-                    <img src="./img/MEN_CASUALWEAR_1.webp" alt="">
-                </div>
-                <div class="text_wrap">
-                    <h2>MEN'S<br>CASUALWEAR</h2>
-
-                    <p class="desc1">
-                        Our casualwear is comfort at every angle.
-                    </p>
-                    <p class="desc2">
-                        Its understated elegance and quality come from our iconic bamboo fabric.</p>
-                    <div class="learn_more">
-                        <span class="btn_learn">learn_more</span>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-        <section class="white bedding">
-            <div class="title_wrap">
-                <h3><span class="blind">BEDDING</span>BEDDING</h3>
-                <i>For a cool, ultra-soft and luxurious night's sleep</i>
-            </div>
-
-            <div class="swiper mySwiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide one">
-                        <a href="">
-
-                            <div class="text_wrap">
-                                <span>BEDDING</span>
-                                <P>DUVET</P>
-
-
-                            </div>
-
-                            <a href=""><span class="btn_discover">DISCOVER</span></a>
-                        </a>
-                    </div>
-                    <div class="swiper-slide two">
-                        <a href="">
-                            <div class="text_wrap">
-                                <span>BEDDING</span>
-                                <P>SHEETS</P>
-                            </div>
-                            <a href=""><span class="btn_discover">DISCOVER</span></a>
-
-                        </a>
-                    </div>
-                    <div class="swiper-slide three">
-                        <a href="">
-
-                            <div class="text_wrap">
-                                <span>BEDDING</span>
-                                <P>PILLOW</P>
-                            </div>
-                            <a href=""><span class="btn_discover">DISCOVER</span></a>
-
-                        </a>
-                    </div>
-
-                </div>
-
-                <div class="pagination">
-
-                    <div class="btn prev">PREV</div>
-                    <div class="swiper-pagination"></div>
-                    <div class="btn next">NEXT</div>
-
-                </div>
-            </div>
-        </section>
-
-        <section class=" takei_basic">
-            <div class="title_wrap">
-                <h3><span class="blind">TAKEI BASIC</span>TAKEI BASIC</h3>
-                <i>For built-in quality and comfort fit for any wardrobe.</i>
-            </div>
-            <div class="green">
-                <div class="swiper mySwiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide one">
-                            <a href="" class="img">
-                                <div class="text_wrap">
-                                    <span>WOMEN</span>
-                                    <P>T-SHIRTS</P>
-                                  
-                                </div>
-                                
-
-                            </a>
-                            <a href=""><span class="btn_discover">DISCOVER</span></a>
+                            <a href="" class="btn_discover"><span>DISCOVER</span></a>
                         </div>
-                        <div class="swiper-slide two">
-                            <a href="" class="img">
-
-                                <div class="text_wrap">
-                                    <span>WOMEN</span>
-                                    <P>LONG SLEEVE</P>
-                                </div>
-                                <a href=""><span class="btn_discover">DISCOVER</span></a>
-
-                            </a>
-                        </div>
-                        <div class="swiper-slide three">
-                            <a href=""class="img">
-
-                                <div class="text_wrap">
-                                    <span>WOMEN</span>
-                                    <P>TANK AND CAMI</P>
-                                </div>
-                                <a href=""><span class="btn_discover">DISCOVER</span></a>
-                            </a>
-                        </div>
-                        <div class="swiper-slide four">
-                            <a href=""class="img">
-
-                                <div class="text_wrap">
-                                    <span>WOMEN</span>
-                                    <P>DRESS</P>
-                                </div>
-                                <a href=""><span class="btn_discover">DISCOVER</span></a>
-                            </a>
-                        </div>
-                        <div class="swiper-slide five">
-                            <a href=""class="img">
-
-                                <div class="text_wrap">
-                                    <span>WOMEN</span>
-                                    <P>LEGGINGS</P>
-                                </div>
-                                <a href=""><span class="btn_discover">DISCOVER</span></a>
-                            </a>
-                        </div>
-                        <div class="swiper-slide six">
-                            <a href="" class="img">
-                                <div class="text_wrap">
-                                    <span>WOMEN</span>
-                                    <P>BOTTOM</P>
-                                </div>
-                                <a href=""><span class="btn_discover">DISCOVER</span></a>
-                            </a>
-                        </div>
-                        <div class="swiper-slide seven">
-                            <a href="" class="img">
-                                <div class="text_wrap">
-                                    <span>MEN</span>
-                                    <P>T-SHIRTS</P>
-                                </div>
-                                <a href=""><span class="btn_discover">DISCOVER</span></a>
-                            </a>
-                        </div>
-                        <div class="swiper-slide eight">
-                            <a href="" class="img">
-
-                                <div class="text_wrap">
-                                    <span>MEN</span>
-                                    <P>LONG SLEEVE</P>
-                                </div>
-                                <a href=""><span class="btn_discover">DISCOVER</span></a>
-                            </a>
-                        </div>
-                        <div class="swiper-slide nine">
-                            <a href="" class="img">
-                                <div class="text_wrap">
-                                    <span>MEN</span>
-                                    <P>TANK</P>
-                                </div>
-                                <a href=""><span class="btn_discover">DISCOVER</span></a>
-                            </a>
-                        </div>
-                        <div class="swiper-slide ten">
-                            <a href="" class="img">
-                                <div class="text_wrap">
-                                    <span>MEN</span>
-                                    <P>BOTTOM</P>
-                                </div>
-                                <a href=""><span class="btn_discover">DISCOVER</span></a>
-                            </a>
-                        </div>
-
                     </div>
 
-                    <div class="pagination white">
+                    <div class="pagination">
 
                         <div class="btn prev">PREV</div>
                         <div class="swiper-pagination"></div>
@@ -839,40 +440,441 @@
 
                 </div>
 
+            </article>
+            <article class="white lounge">
+                <h3>MEN'S LOUNGEWEAR</h3>
+                    <div class="swiper slide01">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+
+                                <img src="./img/MEN_LOUNGEWEAR_ROBE.webp" alt="" class="bg">
+                                <div class="text_wrap">
+                                    <span>MEN LOUNGEWEAR</span>
+                                    <P>ROBE</P>
+                                </div>
+                                <a href="" class="btn_discover"><span>DISCOVER</span></a>
+                            </div>
+                            <div class="swiper-slide">
+
+                                <img src="./img/MEN_LOUNGEWEAR_PAJAMA2.webp" alt="" class="bg">
+                                <div class="text_wrap">
+                                    <span>MEN LOUNGEWEAR</span>
+                                    <P>TOP</P>
+                                </div>
+                                <a href="" class="btn_discover"><span>DISCOVER</span></a>
+                            </div>
+                            <div class="swiper-slide">
+
+                                <img src="./img/MEN_LOUNGEWEAR_PAJAMA_BOTTOM.webp" alt="" class="bg">
+                                <div class="text_wrap">
+                                    <span>MEN LOUNGEWEAR</span>
+                                    <P>BOTTOM</P>
+                                </div>
+                                <a href="" class="btn_discover"><span>DISCOVER</span></a>
+                            </div>
+                        </div>
+
+                        <div class="pagination">
+                            <div class="btn prev">PREV</div>
+                            <div class="swiper-pagination"></div>
+                            <div class="btn next">NEXT</div>
+                        </div>
+                        
+
+                    </div>
+                    
+                    
+            </article>
+        </section>
+
+
+
+        <section class="idiom">
+
+            <p>"Nature itself is the best physician." - Hippocrates</p>
+
+        </section>
+
+        <section class="white w_casual">
+            <div class="title_wrap">
+                <h2>CASUALWEAR</h2>
+                <p>For comfort you can bring with you day to night.</p>
+                </div>
+                <div class="swiper slide01">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+
+                            <img src="./img/WOMEN_CASUALWEAR_SHIRT_1.webp" alt="" class="bg">
+                            <div class="text_wrap">
+                                <span>WOMEN CASUALWEAR</span>
+                                <P>SHIRT</P>
+                            </div>
+                            <a href="" class="btn_discover"><span>DISCOVER</span></a>
+
+
+
+
+                        </div>
+                        <div class="swiper-slide">
+
+                            <img src="./img/WOMEN_CASUALWEAR_DRESS_1.webp" alt="" class="bg">
+                            <div class="text_wrap">
+                                <span>WOMEN CASUALWEAR</span>
+                                <P>DRESS</P>
+                            </div>
+                            <a href="" class="btn_discover"><span>DISCOVER</span></a>
+
+
+
+
+                        </div>
+                        <div class="swiper-slide">
+
+                            <img src="./img/WOMEN_CASUALWEAR_SWEATER_AND_KNITWEAR_1.webp" alt="" class="bg">
+                            <div class="text_wrap">
+                                <span>WOMEN CASUALWEAR</span>
+                                <P>SWEATERS</P>
+                            </div>
+                            <a href="" class="btn_discover"><span>DISCOVER</span></a>
+
+
+
+
+                        </div>
+                        <div class="swiper-slide">
+
+                            <img src="./img/WOMEN_CASUALWEAR_TOP2.webp" alt="" class="bg">
+                            <div class="text_wrap">
+                                <span>WOMEN CASUALWEAR</span>
+                                <P>TOP</P>
+                            </div>
+                            <a href="" class="btn_discover"><span>DISCOVER</span></a>
+
+
+
+
+                        </div>
+                        <div class="swiper-slide">
+
+                            <img src="./img/WOMEN_CASUALWEAR_BOTTOM.webp" alt="" class="bg">
+                            <div class="text_wrap">
+                                <span>WOMEN CASUALWEAR</span>
+                                <P>BOTTOM</P>
+                            </div>
+                            <a href="" class="btn_discover"><span>DISCOVER</span></a>
+
+
+
+
+                        </div>
+                        <div class="swiper-slide">
+
+                            <img src="./img/WOMEN_CASUALWEAR_JUMPSUIT2.webp" alt="" class="bg">
+                            <div class="text_wrap">
+                                <span>WOMEN CASUALWEAR</span>
+                                <P>JUMPSUIT</P>
+                            </div>
+                            <a href="" class="btn_discover"><span>DISCOVER</span></a>
+
+
+
+
+                        </div>
+                    </div>
+
+                    <div class="pagination">
+
+                        <div class="btn prev">PREV</div>
+                        <div class="swiper-pagination"></div>
+                        <div class="btn next">NEXT</div>
+
+                    </div>
+
+                </div>
+           
+      
+            <article class="sc_concept m_casual">
+                <div class="cont_wrap">
+                    <div class="img_wrap img_motion">
+                        <img src="./img/MEN_CASUALWEAR_1.webp" alt="">
+                    </div>
+                    <div class="text_wrap">
+                        <h3>MEN'S<br>CASUALWEAR</h3>
+
+                        <p>
+                            <span>Our casualwear is comfort at every angle.</span>
+                            <span>Its understated elegance and quality come from our iconic bamboo fabric.</span>
+                        </p>
+                        <div class="learn_more">
+                            <a href="" class="btn_learn">learn_more</a>
+                        </div>
+                    </div>
+
+                </div>
+            </article>
+        </section>
+
+        <section class="white bedding">
+            <div class="title_wrap">
+                <h2>BEDDING</h2>
+                <p>For a cool, ultra-soft and luxurious night's sleep</p>
+            </div>
+            <div class="swiper slide01">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+
+                        <img src="./img/BEDDING_DUVET.webp" alt="" class="bg">
+                        <div class="text_wrap">
+                            <span>BEDDINGpan>
+                            <P>DUVET</P>
+                        </div>
+                        <a href="" class="btn_discover"><span>DISCOVER</span></a>
+
+
+
+
+                    </div>
+                    <div class="swiper-slide">
+
+                        <img src="./img/BEDDING_SHEETS.webp" alt="" class="bg">
+                        <div class="text_wrap">
+                            <span>BEDDINGpan>
+                            <P>SHEETS</P>
+                        </div>
+                        <a href="" class="btn_discover"><span>DISCOVER</span></a>
+
+
+
+
+                    </div>
+                    <div class="swiper-slide">
+
+                        <img src="./img/BEDDING_THROW_PILLOW.webp" alt="" class="bg">
+                        <div class="text_wrap">
+                            <span>BEDDINGpan>
+                            <P>PILLOW</P>
+                        </div>
+                        <a href="" class="btn_discover"><span>DISCOVER</span></a>
+
+
+
+
+                    </div>
+                   
+                </div>
+
+                <div class="pagination">
+
+                    <div class="btn prev">PREV</div>
+                    <div class="swiper-pagination"></div>
+                    <div class="btn next">NEXT</div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class=" takei_basic">
+            <div class="title_wrap">
+                <h2>TAKEI BASIC</h2>
+                <p>For built-in quality and comfort fit for any wardrobe.</p>
+            </div>
+            <div class="green">
+                <div class="swiper slide02">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="">
+                                <div class="text_wrap">
+                                    <span>WOMEN</span>
+                                    <p>T-SHIRTS</p>
+                                </div>
+                                <div class="img_wrap">
+    
+                                    <img src="./img/WOMEN_TAKEI_BASIC_T-SHIRTS.webp" alt="" class="bg">
+                                </div>
+    
+                            </a>
+                            <a href="" class="btn_discover"><span>DISCOVER</span></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="">
+                                <div class="text_wrap">
+                                    <span>WOMEN</span>
+                                    <p>LONG SLEEVES</p>
+                                </div>
+                                <div class="img_wrap">
+    
+                                    <img src="./img/WOMEN_TAKEI_BASIC_LONG_SLEEVE.webp" alt="" class="bg">
+                                </div>
+                            </a>
+                            <a href="" class="btn_discover"><span>DISCOVER</span></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="">
+                                <div class="text_wrap">
+                                    <span>WOMEN</span>
+                                    <p>TANKS AND CAMI</p>
+                                </div>
+                                <div class="img_wrap">
+    
+                                    <img src="./img/WOMEN_TAKEI_BASIC_TANK_AND_CAMI.webp" alt="" class="bg">
+                                </div>
+                            </a>
+                            <a href="" class="btn_discover"><span>DISCOVER</span></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="">
+                                <div class="text_wrap">
+                                    <span>WOMEN</span>
+                                    <p>DRESS</p>
+                                </div>
+                                <div class="img_wrap">
+    
+                                    <img src="./img/WOMEN_TAKEI_BASIC_DRESS.webp" alt="" class="bg">
+                                </div>
+                            </a>
+                            <a href="" class="btn_discover"><span>DISCOVER</span></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="">
+                                <div class="text_wrap">
+                                    <span>WOMEN</span>
+                                    <p>LEGGINGS</p>
+                                </div>
+                                <div class="img_wrap">
+    
+                                    <img src="./img/WOMEN_TAKEI_BASIC_LEGGINGS.webp" alt="" class="bg">
+                                </div>
+                            </a>
+                            <a href="" class="btn_discover"><span>DISCOVER</span></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="">
+                                <div class="text_wrap">
+                                    <span>WOMEN</span>
+                                    <p>BOTTOM</p>
+                                </div>
+                                <div class="img_wrap">
+    
+                                    <img src="./img/WOMEN_TAKEI_BASIC_BOTTOM.webp" alt="" class="bg">
+                                </div>
+                            </a>
+                            <a href="" class="btn_discover"><span>DISCOVER</span></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="">
+                                <div class="text_wrap">
+                                    <span>MEN</span>
+                                    <p>T-SHIRTS</p>
+                                </div>
+                                <div class="img_wrap">
+    
+                                    <img src="./img/MEN_TAKEI_BASIC_T-SHIRTS.webp" alt="" class="bg">
+                                </div>
+                            </a>
+                            <a href="" class="btn_discover"><span>DISCOVER</span></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="">
+                                <div class="text_wrap">
+                                    <span>MEN</span>
+                                    <p>LONG SLEEVES</p>
+                                </div>
+                                <div class="img_wrap">
+    
+                                    <img src="./img/MEN_TAKEI_BASIC_LONG_SLEEVE.webp" alt="" class="bg">
+                                </div>
+                            </a>
+                            <a href="" class="btn_discover"><span>DISCOVER</span></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="">
+                                <div class="text_wrap">
+                                    <span>MEN</span>
+                                    <p>TANK</p>
+                                </div>
+                                <div class="img_wrap">
+    
+                                    <img src="./img/MEN_TAKEI_BASIC_TANK.webp" alt="" class="bg">
+                                </div>
+                            </a>
+                            <a href="" class="btn_discover"><span>DISCOVER</span></a>
+                        </div>
+                       </div>
+    
+                    <div class="pagination white">
+    
+                        <div class="btn prev">PREV</div>
+                        <div class="swiper-pagination"></div>
+                        <div class="btn next">NEXT</div>
+    
+                    </div>
+                </div>
+
         </section>
         <section class="towel">
-            
+
             <div class="text_wrap">
-                <span>For the spa experience at home.</span>
-                <p>TOWEL</p>
+                <p>For the spa experience at home.</p>
+                <h2>TOWEL</h2>
                 <a href=""><span class="btn_discover">DISCOVER</span></a>
             </div>
-           
+            <div class="swiper slide03">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="https://takeihome.com/static/images/Towel-1.webp" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://takeihome.com/static/images/Towel-2.webp" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://takeihome.com/static/images/Towel-3.webp" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://takeihome.com/static/images/Towel-4.webp" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://takeihome.com/static/images/Towel-5.webp" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://takeihome.com/static/images/Towel-6.webp" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://takeihome.com/static/images/Towel-7.webp" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://takeihome.com/static/images/Towel-8.webp" alt="">
+                    </div>
+                </div>
+            </div>
 
         </section>
 
-        <section class="green journal">
+        <section class="journal">
             <div class="title_wrap">
-                <h3><span class="blind">TAKEI JOURNAL</span>TAKEI JOURNAL</h3>
-                <i>The stories about Takei.</i>
+                <h2>TAKEI JOURNAL</h2>
+                <p>The stories about Takei.</p>
             </div>
 
             <div class="journal_wrap">
 
-                <a href="">
-                    <div class="card_wrap">
-                        <div class="bg_img">
-                            <div class="text_wrap">
-                                <span>TAKEI JOURNAL VOLUME I</span>
-                                <P>ART WOVEN IN</P>
 
-                                <a href=""><span class="btn_discover">DISCOVER</span></a>
-                            </div>
-                        </div>
+                <div class="card_wrap">
+                    <div class="img_wrap img_motion">
+                        <img src="./img/jt000001.webp" alt="">
+                    </div>
+                    <div class="text_wrap">
+                        <p>TAKEI JOURNAL VOLUME I</p>
+                        <strong>ART WOVEN IN</strong>
+
+                        <a href=""><span class="btn_discover">DISCOVER</span></a>
                     </div>
 
+                </div>
 
-                </a>
+
+
             </div>
 
         </section>
@@ -882,10 +884,14 @@
                     <span>MAILING LIST</span>
                     <h2>KEEP IN TOUCH</h2>
                     <span>Be the first to know upcoming Takei products by joining our mailing list</span>
-                    <input type="text" placeholder="Email">
-                    <div class="btn_join">
-                        JOIN
-                    </div>
+                    <form action=" " method="post">
+                        <fieldset>
+                            <legend class="blind">구독</legend>
+                            <input type="text" placeholder="Email">
+                            <button class="btn_join">join</button>
+                        </fieldset>
+                    </form>
+
                 </div>
 
             </div>
@@ -898,18 +904,16 @@
         <div class="inner">
             <div class="info">
                 <div class="address">
-                    <p>Address</p>
-                    <br>
-                    <address>276 5th Ave #500 New York, NY 10001</address>
-                    <br>
-                    <br>
-                    <br>
+                    <h3>Address</h2>
+
+                        <address>276 5th Ave #500 New York, NY 10001</address>
+
                 </div>
                 <div class="payment">
-                    <p>PAYMENT ACCEPTED</p>
-                    <br>
+                    <h3>PAYMENT ACCEPTED</h3>
+
                     <div class="pay_wrap">
-                        <a href=""><i></i></a>
+                        <a href=""><i><span class="blind">adf</span></i></a>
                         <a href=""><i></i></a>
                         <a href=""><i></i></a>
                         <a href=""><i></i></a>
@@ -918,24 +922,25 @@
                     </div>
                 </div>
                 <div class="follow">
-                    <p>FOLLOW US</p>
-                    <br>
+                    <h3>FOLLOW US</h3>
+
                     <div class="follow_wrap">
-                        <a href=""><img src="./img/facebook.png" alt=""></a>
-                        <a href=""><img src="./img/twitter.png" alt=""></a>
-                        <a href=""><img src="./img/pinterest.png" alt=""></a>
-                        <a href=""><img src="./img/instagram.png" alt=""></a>
+                        <a href=""><i><span class="blind">facebook</span></i></a>
+                        <a href=""><i><span class="blind">twitter</span></i></a>
+                        <a href=""><i><span class="blind">pinterest</span></i></a>
+                        <a href=""><i><span class="blind">instagram</span></i></a>
+                        
                     </div>
                 </div>
             </div>
             <div class="policy">
-                <p>POLICY</p>
+                <h3>POLICY</h3>
                 <a href="" class="first"><span>POLICY</span></a>
                 <a href=""><span>SHIPPING POLICY</span></a>
                 <a href=""><span>RETURNS</span></a>
             </div>
             <div class="imformations">
-                <p>IMFORMATIONS</p>
+                <h3>IMFORMATIONS</h3>
                 <a href=""><span>FUTURE@TAKEIHOME.COM</span></a>
                 <a href=""><span> FAQ</span></a>
 
@@ -945,7 +950,7 @@
             </div>
         </div>
         <div class="footer_copy">
-            <i>© 2022 TAKEI</i>
+            © 2022 TAKEI
         </div>
     </footer>
 
