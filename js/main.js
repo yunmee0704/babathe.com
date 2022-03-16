@@ -1,6 +1,13 @@
 
 $(function () {
-
+ $(window).scroll(function(){
+   let scrT=$(window).scrollTop();
+   if(scrT > 0){
+    $('.gnb_icon a').css({color:'#000'});
+   }else{
+    $('.gnb_icon a').css({color:'#fff'});
+   }
+ })
   $('.gnb .title a').mouseover(function(){
     $('.menu_bg').addClass('on')
     $('.gnb_icon').addClass('on');
@@ -16,17 +23,7 @@ $(function () {
     
   })
 
-  
-  // $('.gnb .title a').hover(function(e){
-  //     e.preventDefault();
-  //     $(this).addClass('on').siblings().removeClass('on')
-  //     target = $(this).attr('href');
-  //     $(target).addClass('on').siblings().removeClass('on')
-  //     $('.gnb .title a').css("color","rgba(13, 51, 22, 1)");
-  // },function(e){
-  //   $(target).removeClass('on')
-  //   }
-  //   )
+
   $('.gnb .title > li').mouseleave(function(){
     
     $('.sub').removeClass('on');
@@ -85,6 +82,10 @@ $(function () {
     
   });
 
+
+
+ 
+
   //intro
   // gsap.to  // 동작 후의 값을 바꿀 때.
   // gsap.from  // 동작 전의 값을 바꿀 때.
@@ -104,17 +105,8 @@ $(function () {
   })
 
 
-  //white
-  // gsap.to('.swiper .bg',{
-  //   scrollTrigger:{
-  //     trigger:".white .swiper",
-  //     start:"top 100%",//첫 엘리먼트기준, 두번쨰 윈도우기준
-  //     end:"bottom top",
-  //     // markers:true,
-  //     scrub:0.5,
-  //   },
-  //   y:-100
-  // })
+
+
 $('.swiper').each(function(index,item){
 
   el = $(this).find('.bg')
@@ -123,10 +115,10 @@ $('.swiper').each(function(index,item){
         trigger:item,
         start:"top 100%",//첫 엘리먼트기준, 두번쨰 윈도우기준
         end:"bottom top",
-        markers:true,
+      
         scrub:0.5,
       },
-      y:-100
+      y:-50
     })
 })
 $('.img_motion').each(function(index,item){
@@ -137,7 +129,7 @@ $('.img_motion').each(function(index,item){
         trigger:item,
         start:"top 100%",//첫 엘리먼트기준, 두번쨰 윈도우기준
         end:"bottom top",
-        markers:true,
+     
         scrub:0.5,
       },
       y:-100

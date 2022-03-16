@@ -8,26 +8,35 @@ woff2 - woff에서 20%압축된거
 ttf -디자이너가 주는 원본파일 */
 
 
+
 @font-face {
-    font-family: 'decay';
-    src: url('../font/decay-white.woff2') format('woff2');
-    /* Super Modern Browsers */
-    font-weight: 400
+    font-family: 'NotoSansKR';
+    src: url('../font/NotoSansKR-Regular.woff2') format('woff2');
+     /* Super Modern Browsers */
+     font-weight: 400
+}
+@font-face {
+    font-family: 'NotoSansKR';
+    src: url('../font/NotoSansKR-Medium.woff2') format('woff2');
+     /* Super Modern Browsers */
+     font-weight: 500
 }
 
 @font-face {
-    font-family: 'NewYork';
-    src: url('../font/decay-white.woff2') format('woff2');
-    /* Super Modern Browsers */
-    font-weight: 400
+    font-family: 'NotoSansKR';
+    src: url('../font/NotoSansKR-Bold.woff2') format('woff2');
+     /* Super Modern Browsers */
+     font-weight: 700
 }
+
 
 body {
-    font-family: 'NewYork', sans-serif;
-    min-width: 1400px;
+    font-family: 'Noto Serif Display','NotoSansKR',sans-serif;
+    min-width: 1320px;
 }
 
 header {
+    min-width: 1320px;
     position: fixed;
     width: 100%;
     top: 0;
@@ -37,8 +46,9 @@ header {
 }
 
 header .discount_offer {
-    background: rgba(13, 51, 22, 1);
-
+    background:#C2722E;
+    box-sizing: border-box;
+    width: 100%;
     padding: 7px 0;
     text-decoration: underline;
     text-align: center;
@@ -48,7 +58,7 @@ header .discount_offer {
 
 .gnb_icon.on {
     background: white;
-    color: rgba(13, 51, 22, 1);
+    color: #C2722E;
 }
 
 
@@ -63,10 +73,11 @@ header .gnb_icon {
 
 header .gnb_icon .logo {
 
-    background-color: yellow;
-    width: 90px;
-    height: 33px;
-    top: 8px;
+    background: url(../img/babalogo.png) no-repeat center;
+    background-size: cover;
+    width: 180px;
+    height: 16px;
+    top: 15px;
     left: 30px;
     position: absolute;
 }
@@ -80,12 +91,14 @@ header .gnb_icon .icons {
 
 header .gnb_icon .icons a {
     float: left;
-    width: 30px;
-    height: 30px;
+    margin-top: 9px;
+   font-size: 15px;
     margin-right: 10px;
-    background: red;
+   
+ 
 
 }
+
 
 
 header .gnb {
@@ -102,6 +115,9 @@ header .gnb .title {
     display: inline-block;
     text-align: center;
 }
+header .gnb_icon.on a {
+    color:#C2722E;
+}
 
 header .gnb .title::after {
     content: '';
@@ -111,7 +127,7 @@ header .gnb .title::after {
 
 header .gnb .title>li {
     float: left;
-    padding: 0 60px;
+    padding: 0 30px;
     font-weight: bold;
   
     
@@ -135,7 +151,7 @@ header .gnb .title .sub {
     opacity: 0;
     visibility: hidden;
     z-index: 1;
-    color: rgba(13, 51, 22, 1);
+    color: #C2722E;
     text-align: center;
    
 }
@@ -148,12 +164,18 @@ header .gnb .title .sub .sub_list {
 }
 header .gnb .title .sub .sub_list li {
  margin: 20px;
+ line-height: 1;
 display: block;
 text-align: left;
+
 }
+header .gnb .title .sub .sub_list li:hover {
+text-decoration: underline;
+}
+
 header .gnb .title .sub .sub_list li h3{
-   font-weight: bold;
-   font-size: 20px;
+   font-weight: 600;
+   font-size: 25px;
 }
 header .gnb .title .sub .sub_list li:first-child{
    font-weight: bold;
@@ -166,6 +188,19 @@ header .gnb .title .sub.on {
     background: #fff;
 }
 
+
+#women, #men{
+ padding: 20px 20%;
+
+}
+
+#luxury .sub_list{overflow: hidden; width: 100%; margin: 50px 10%;}
+#luxury .sub_list li{float: left; margin: 0px 8%;}
+
+#beauty, #health ,#editorial{
+    padding: 20px 45%;
+}
+#exhibition{font-weight: bold;}
 .menu_bg {
     position: absolute;
     width: 100%;
@@ -196,76 +231,70 @@ header .gnb .title .sub.on {
 
 
 footer {
-    width: 100%;
+  
     margin-top: 100px;
-    padding-top: 50px;
+  
     background: white;
-    font-weight: bold;
+    font-weight: 400;
+
 }
 
 footer .inner {
-    padding: 0 50px;
-
+    width: 1600px;
+    margin: 0 auto;
     overflow: hidden;
 }
 
 footer .inner>div {
     float: left;
+    
+    padding-right: 20px;
+    box-sizing: border-box;
     width: 25%;
-    color: rgba(13, 51, 22, 1);
+    color: #C2722E;
     font-size: 20px;
 }
-
+footer .inner>div h3{font-weight: 600;}
 footer .inner .info .address {
     font-size: 20px;
     margin-bottom: 40px;
+ 
 }
 
 footer .inner .info .address address {
-
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.5;
     margin: 10px 0 20px;
 }
 
-footer .inner .info .payment {
-    margin-bottom: 40px;
-}
-
-footer .inner .info .payment .pay_wrap {
-    overflow: hidden;
-    width: 300px;
-    height: 57px;
-    padding-top: 15px;
-}
-
-footer .inner .info .payment .pay_wrap a {
-    float: left;
-    display: inline-block;
-
-    margin-left: 3px;
-}
-
-footer .inner .info .payment .pay_wrap a i {
-    display: block;
-    width: 40px;
-    height: 24px;
-    background: #000;
-}
 
 footer .inner .info .follow .follow_wrap {
-    width: 180px;
+  
     overflow: hidden;
     margin-top: 10px;
 }
 
-footer .inner .info .follow .follow_wrap a {
+footer .inner .info .follow .follow_wrap a i {
     display: block;
     float: left;
     margin-right: 20px;
-    width: 18px;
-    height: 18px;
-    background: Red;
+    width: 40px;
+    height: 40px;
+    background-position: cover;
 }
-
+footer .inner .info .follow .follow_wrap a:nth-child(1) i{
+    background: url(https://pc.babathe.com/_static/img/icon_face.png) no-repeat center;
+}
+footer .inner .info .follow .follow_wrap a:nth-child(2) i{
+    background: url(https://pc.babathe.com/_static/img/bnt_apple_down.png) no-repeat center;
+}
+footer .inner .info .follow .follow_wrap a:nth-child(3) i{
+    background: url(https://pc.babathe.com/_static/img/icon_insta.png) no-repeat center;
+}
+footer .inner .info .follow .follow_wrap a:nth-child(4) i{
+    background: url(https://pc.babathe.com/_static/img/bnt_google_down.png) no-repeat center;
+}
 footer .inner .info .follow .follow_wrap a img {
 
     width: 100%;
@@ -273,47 +302,44 @@ footer .inner .info .follow .follow_wrap a img {
     height: 100%;
 }
 
-footer .inner .policy p,
-footer .inner .imformations p {
-    margin-bottom: 38px;
-}
-
-footer .inner .policy p a {
+footer .inner .policy a,
+footer .inner .service a,
+footer .inner .cs a {
+  
     display: block;
-
 }
+
 
 footer .inner .policy a span,
-footer .inner .imformations a span {
+footer .inner .cs a span,
+footer .inner .service a span {
     display: block;
     font-size: 14px;
     text-align: left;
     margin-top: 18px;
 }
-
-
-footer .inner .mark a {
-    display: block;
-    width: 110px;
-    height: auto;
+.service h3{
+    font-size: 25px;
 }
 
-footer .inner .mark a img {
-    width: 110px;
-    height: 110px;
-    display: block;
-    background: #000;
-    margin-left: 10vw;
-
+.mark{
+    position: absolute;
+    right:0;
+    background: url(https://pc.babathe.com/_static/img/qrCode.png) no-repeat center;
+    background-position: cover;
+    width: 100px;
+    height: 100px;
 }
+.mark a{display: block; height: 100%;}
 
 footer .footer_copy {
     color: rgba(255, 255, 255, 1);
-    width: 100vw;
+    width: 100%;
     font-size: 13px;
-    background: rgba(13, 51, 22, 1);
+    background: #C2722E;
     margin-top: 15vh;
     text-align: center;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
 }
