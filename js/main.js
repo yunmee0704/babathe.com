@@ -145,7 +145,7 @@ $('.img_motion').each(function(index,item){
   //   },
   //   y:100
   // })
-})//지우지마세요
+})//
 
 
 
